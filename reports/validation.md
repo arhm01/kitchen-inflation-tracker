@@ -1,6 +1,6 @@
 # Validation report
 
-_Generated 2026-11-10 21:15 UTC by the pipeline. Checks are defined in `src/kitchen_inflation/validate.py`; cleaning rules in `clean.py`; both are explained in `docs/methods.md`._
+_Generated 2026-11-10 21:46 UTC by the pipeline. Checks are defined in `src/kitchen_inflation/validate.py`; cleaning rules in `clean.py`; both are explained in `docs/methods.md`._
 
 ## Coverage
 
