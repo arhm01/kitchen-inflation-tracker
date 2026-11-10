@@ -95,16 +95,24 @@ def download_and_parse(catalog: pd.DataFrame, offline: bool = False
     ]
     parsed: dict[str, dict] = {}
     status = {}
+    # Fetch everything missing up front with a small worker pool. A weekly
+    # run only has a couple of new files; a cold cache (first CI run, or a
+    # lost cache) has ~450, and the PBS server serves one connection slowly.
+    if not offline:
+        todo = [(u, config.RAW / f) for u, f in zip(wanted["url"], wanted["filename"])
+                if not (config.RAW / f).exists()]
+        if todo:
+            log.info("downloading %d new files", len(todo))
+            for url, err in fetch.download_many(todo, workers=3).items():
+                if err != "ok":
+                    status[url] = f"download_failed: {err}"
+                    log.warning("download failed %s: %s", url.rsplit("/", 1)[-1], err)
     for _, row in wanted.iterrows():
         dest = config.RAW / row["filename"]
-        if offline and not dest.exists():
-            status[row["url"]] = "not_downloaded"
+        if row["url"] in status:  # download failed above
             continue
-        try:
-            fetch.download(row["url"], dest)
-        except Exception as exc:
-            status[row["url"]] = f"download_failed: {exc}"
-            log.warning("download failed %s: %s", row["filename"], exc)
+        if not dest.exists():
+            status[row["url"]] = "not_downloaded"
             continue
         res = parse_file(row["kind"], dest)
         parsed[row["url"]] = res
