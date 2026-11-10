@@ -1,0 +1,52 @@
+item_no,spec_version,item_name,unit,spec,first_week,last_week,weeks,short_name,group
+1,1,Wheat Flour Bag,20 Kg,wheat flour bag | 20 kg,2023-02-16,2026-11-05,163,Wheat flour (20kg),kitchen
+2,1,Rice Basmati Broken (Average Quality),1 Kg,rice basmati broken average quality | 1 kg,2023-02-16,2026-11-05,163,Rice basmati,kitchen
+3,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,rice irri 6/9 sindh/punjab | 1 kg,2023-02-16,2026-11-05,163,Rice IRRI,kitchen
+4,1,Bread plain (Small Size),Each,bread plain small size | each,2023-02-16,2026-11-05,163,Bread,kitchen
+5,1,Beef with Bone (Average Quality),1 Kg,beef with bone average quality | 1 kg,2023-02-16,2026-11-05,163,Beef,kitchen
+6,1,Mutton (Average Quality),1 Kg,mutton average quality | 1 kg,2023-02-16,2026-11-05,163,Mutton,kitchen
+7,1,Chicken Farm Broiler (Live),1 Kg,chicken farm broiler live | 1 kg,2023-02-16,2026-11-05,163,Chicken,kitchen
+8,1,Milk fresh (Un-boiled),1 Ltr,milk fresh un boiled | 1 ltr,2023-02-16,2026-11-05,163,Milk,kitchen
+9,1,Curd (Dahi) Loose,1 Kg,curd dahi loose | 1 kg,2023-02-16,2026-11-05,163,Curd,kitchen
+10,1,Powdered Milk NIDO 390 gm Polybag,Each,powdered milk nido 390 gm polybag | each,2023-02-16,2026-11-05,163,Powdered milk,kitchen
+11,1,Eggs Hen (Farm),1 Dozen,eggs hen farm | 1 dozen,2023-02-16,2026-11-05,163,Eggs (dozen),kitchen
+12,1,Mustard Oil (Average Quality),1 Kg,mustard oil average quality | 1 kg,2023-02-16,2026-11-05,163,Mustard oil,kitchen
+13,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,cooking oil dalda or other similar brand sn 5 litre tin | each,2023-02-16,2026-11-05,163,Cooking oil (5L),kitchen
+14,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,vegetable ghee dalda/habib 2.5 kg tin | each,2023-02-16,2026-11-05,163,Ghee (2.5kg),kitchen
+15,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,vegetable ghee dalda/habib or other superior quality 1 kg pouch | each,2023-02-16,2026-11-05,163,Ghee (1kg),kitchen
+16,1,Bananas (Kela) Local,1 Dozen,bananas kela local | 1 dozen,2023-02-16,2026-11-05,163,Bananas (dozen),kitchen
+17,1,Pulse Masoor (Washed),1 Kg,pulse masoor washed | 1 kg,2023-02-16,2026-11-05,163,Pulse masoor,kitchen
+18,1,Pulse Moong (Washed),1 Kg,pulse moong washed | 1 kg,2023-02-16,2026-11-05,163,Pulse moong,kitchen
+19,1,Pulse Mash (Washed),1 Kg,pulse mash washed | 1 kg,2023-02-16,2026-11-05,163,Pulse mash,kitchen
+20,1,Pulse Gram,1 Kg,pulse gram | 1 kg,2023-02-16,2026-11-05,163,Pulse gram,kitchen
+21,1,Potatoes,1 Kg,potatoes | 1 kg,2023-02-16,2026-11-05,163,Potatoes,kitchen
+22,1,Onions,1 Kg,onions | 1 kg,2023-02-16,2026-11-05,163,Onions,kitchen
+23,1,Tomatoes,1 Kg,tomatoes | 1 kg,2023-02-16,2026-11-05,163,Tomatoes,kitchen
+24,1,Sugar Refined,1 Kg,sugar refined | 1 kg,2023-02-16,2026-11-05,163,Sugar,kitchen
+25,1,Gur (Average Quality),1 Kg,gur average quality | 1 kg,2023-02-16,2026-11-05,163,Gur,kitchen
+26,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,salt powdered national/shan 800 gm packet | each,2023-02-16,2026-11-05,163,Salt,kitchen
+27,1,Chilies Powder NATIONAL 200 gm Packet,Each,chilies powder national 200 gm packet | each,2023-02-16,2026-11-05,163,Chilli powder,kitchen
+28,1,Garlic (Lehsun),1 Kg,garlic lehsun | 1 kg,2023-02-16,2026-11-05,163,Garlic,kitchen
+29,1,Tea Lipton Yellow Label 190 gm Packet,Each,tea lipton yellow label 190 gm packet | each,2023-02-16,2026-11-05,163,Tea (packet),kitchen
+30,1,Cooked Beef at Average Hotel,Per Plate,cooked beef at average hotel | per plate,2023-02-16,2026-11-05,163,Cooked beef (plate),prepared_food
+31,1,Cooked Daal at Average Hotel,Per Plate,cooked daal at average hotel | per plate,2023-02-16,2026-11-05,163,Cooked daal (plate),prepared_food
+32,1,Tea Prepared Ordinary,Per Cup,tea prepared ordinary | per cup,2023-02-16,2026-11-05,163,Tea (cup),prepared_food
+33,1,Cigarettes Capstan 20'S Packet,Each,cigarettes capstan 20 s packet | each,2023-02-16,2026-11-05,163,Cigarettes,non_food
+34,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,long cloth 57 gul ahmed/al karam | 1 mtr,2023-02-16,2026-11-05,163,Long cloth,non_food
+35,1,Shirting (Average Quality),1 mtr,shirting average quality | 1 mtr,2023-02-16,2026-11-05,163,Shirting,non_food
+36,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,lawn printed gul ahmed/al karam | 1 mtr,2023-02-16,2026-11-05,163,Lawn,non_food
+37,1,Georgette (Average Quality),1 mtr,georgette average quality | 1 mtr,2023-02-16,2026-11-05,163,Georgette,non_food
+38,1,Gents Sandal Bata,Pair,gents sandal bata | pair,2023-02-16,2026-11-05,163,Gents sandal,non_food
+39,1,Gents Sponge Chappal Bata,Pair,gents sponge chappal bata | pair,2023-02-16,2026-11-05,163,Gents chappal,non_food
+40,1,Ladies Sandal Bata,Pair,ladies sandal bata | pair,2023-02-16,2026-11-05,163,Ladies sandal,non_food
+41,1,Electricity Charges for Q1*,Per Unit,electricity charges for q1 | per unit,2023-02-16,2026-11-05,163,Electricity (Q1),non_food
+42,1,Gas Charges for Q1,MMBTU,gas charges for q1 | mmbtu,2023-02-16,2026-11-05,163,Gas (Q1),non_food
+43,1,Firewood Whole,40 Kg,firewood whole | 40 kg,2023-02-16,2026-11-05,163,Firewood (40kg),non_food
+44,1,Energy Saver Philips 14 Watt,Each,energy saver philips 14 watt | each,2023-02-16,2026-11-05,163,Energy saver,non_food
+45,1,Sufi Washing Soap 250 gm Cake,Each,sufi washing soap 250 gm cake | each,2023-02-16,2026-11-05,163,Washing soap,non_food
+46,1,Match Box,Each,match box | each,2023-02-16,2026-11-05,163,Matchbox,non_food
+47,1,Petrol Super,Per Litre,petrol super | per litre,2023-02-16,2026-11-05,163,Petrol,non_food
+48,1,Hi-Speed Diesel,Per Litre,hi speed diesel | per litre,2023-02-16,2026-11-05,163,Diesel,non_food
+49,1,LPG 11.67 kg Cylinder,Each,lpg 11.67 kg cylinder | each,2023-02-16,2026-11-05,163,LPG cylinder,non_food
+50,1,Telephone Call Charges,Per Minute,telephone call charges | per minute,2023-02-16,2026-11-05,163,Phone call,non_food
+51,1,Toilet Soap LIFEBUOY 115 gm,Each,toilet soap lifebuoy 115 gm | each,2023-02-16,2026-11-05,163,Toilet soap,non_food

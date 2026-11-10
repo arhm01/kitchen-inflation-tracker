@@ -1,0 +1,83 @@
+severity,check,subject,detail
+info,filename_date_mismatch,Executive-Summary-SPI-Report_20.02.2026.pdf,"name says 2026-02-20, content says 2026-02-19"
+info,zero_as_missing,prices,579 city-item-weeks reported as 0.00 -> NULL (C1)
+info,summary_link,summary_items,"8203 rows linked by price, 59 by name (C4)"
+info,V11_index_revision,2025-11-27 Q1,previous-week index revised by +2.04 points vs the 2025-11-20 report
+warn,V4_city_outlier,2025-04-24 Larkana Tomatoes,11.45 vs median 60.00 (0.19x)
+warn,V4_city_outlier,2025-04-30 Larkana Tomatoes,13.1 vs median 56.46 (0.23x)
+warn,V4_city_outlier,2025-05-08 Larkana Tomatoes,16.51 vs median 50.00 (0.33x)
+warn,V4_city_outlier,2025-05-15 Larkana Tomatoes,13.1 vs median 50.00 (0.26x)
+warn,V4_city_outlier,2025-05-22 Larkana Tomatoes,16.51 vs median 50.00 (0.33x)
+info,V6_big_jump,2025-10-30 #22 Onions,national median 112.63 -> 186.43 (+66%) in one week (perishable)
+info,V6_big_jump,2025-11-20 #23 Tomatoes,national median 120.00 -> 200.00 (+67%) in one week (perishable)
+warn,V6_possible_unit_change,2023-07-26 #27 Chilli powder,"national median 215.00 -> 400.00 (+86%) in one week, description unchanged"
+warn,V6_possible_unit_change,2023-11-16 #42 Gas (Q1),"national median 295.00 -> 1711.00 (+480%) in one week, description unchanged"
+warn,V7_missing_weeks,2023-02-16 -> 2023-07-06,19 week(s) with no annex found
+warn,V7_missing_weeks,2024-02-01 -> 2024-02-15,1 week(s) with no annex found
+warn,V7_missing_weeks,2024-04-04 -> 2024-04-18,1 week(s) with no annex found
+warn,V7_missing_weeks,2024-06-27 -> 2024-07-11,1 week(s) with no annex found
+warn,V7_missing_weeks,2024-09-12 -> 2024-11-07,7 week(s) with no annex found
+warn,V7_missing_weeks,2025-06-12 -> 2025-06-26,1 week(s) with no annex found
+warn,V7_missing_weeks,2026-05-21 -> 2026-06-04,1 week(s) with no annex found
+warn,V7_missing_weeks,2026-06-18 -> 2026-07-02,1 week(s) with no annex found
+info,V9_pdf_vs_xlsx,2025-04-30,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-05-15,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-07-17,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-07-24,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-07-31,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-10-09,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-10-16,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-10-23,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-10-30,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-11-06,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-11-13,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-11-20,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-11-27,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-12-04,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-12-11,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-12-18,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2025-12-24,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-01-01,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-01-08,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-01-15,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-01-22,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-01-29,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-02-04,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-02-12,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-02-19,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-02-26,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-03-05,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-03-11,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-03-18,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-03-26,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-04-02,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-04-09,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-04-16,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-04-23,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-04-30,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-05-07,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-05-14,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-05-21,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-06-04,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-06-11,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-06-18,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-07-02,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-07-09,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-07-16,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-07-23,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-07-30,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-08-06,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-08-13,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-08-20,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-08-27,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-09-03,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-09-10,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-09-17,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-09-24,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-10-01,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-10-08,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-10-15,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-10-22,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-10-29,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-11-05,"0 of 2601 cells differ, 0 unmatched keys"
+info,V10_decomposition,all weeks,100% of week-baskets close within 0.15pp; median |gap| 0.003pp

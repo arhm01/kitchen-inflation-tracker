@@ -1,0 +1,30 @@
+[project]
+name = "kitchen-inflation"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "arhm01", email = "arhm1801@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "duckdb>=2.0.0",
+    "lxml>=6.1.3",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "pdfplumber>=0.11.10",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+kitchen-inflation = "kitchen_inflation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

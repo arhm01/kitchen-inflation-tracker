@@ -1,0 +1,89 @@
+# Weekly run: discover new SPI reports, parse, validate, load, rebuild the
+# dashboard, commit the updated data and deploy the site to GitHub Pages.
+#
+# PBS publishes the SPI for the week ending Thursday on Friday afternoon
+# (Pakistan time, UTC+5). Saturday 06:00 UTC leaves a comfortable margin;
+# a second Monday run catches late uploads and corrections.
+name: weekly-spi
+
+on:
+  schedule:
+    - cron: "0 6 * * 6"   # Saturday 06:00 UTC
+    - cron: "0 6 * * 1"   # Monday 06:00 UTC (late uploads / corrections)
+  workflow_dispatch:
+    inputs:
+      full_scan:
+        description: "Scan the whole WordPress media library (slower)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # commit refreshed data back to the repo
+  pages: write
+  id-token: write
+
+concurrency:
+  group: weekly-spi
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      # Raw PDFs and the parse cache are kept between runs, so a weekly run
+      # only downloads and parses the new files.
+      - name: Restore raw report + parse cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/raw
+            data/interim/parsed
+          key: raw-${{ github.run_id }}
+          restore-keys: raw-
+
+      - name: Run pipeline
+        run: |
+          ARGS=""
+          if [ "${{ inputs.full_scan }}" = "true" ]; then ARGS="--full-scan"; fi
+          uv run python -m kitchen_inflation run $ARGS
+
+      - name: Tests
+        run: uv run pytest -q
+
+      # Validation errors fail the pipeline step above (non-zero exit), so we
+      # only reach here with data that passed the hard checks.
+      - name: Commit refreshed data
+        run: |
+          git config user.name "spi-bot"
+          git config user.email "spi-bot@users.noreply.github.com"
+          git add data/interim/catalog.csv data/clean reports site
+          if git diff --cached --quiet; then
+            echo "No new data this week."
+          else
+            git commit -m "data: SPI refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: run
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

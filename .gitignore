@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Raw PBS files are re-downloadable and cached by CI; keep the repo small.
+data/raw/
+# The DuckDB file is rebuilt from data/clean on every run.
+data/*.duckdb
+data/*.duckdb.wal
+*.part
+
+# Parse cache (rebuildable, ~90MB) and local logs; cached in CI instead.
+data/interim/parsed/
+data/interim/*.log
+
+# Local editor/agent config
+.claude/

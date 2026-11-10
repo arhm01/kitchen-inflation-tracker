@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kitchen Inflation Tracker</title>
+<meta name="description" content="Weekly city-level food prices in Pakistan from the PBS Sensitive Price Indicator: which city pays most, how inflation differs for poorer households, and the Ramadan effect by item.">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb;
+  --ink: #0b0b0b; --ink-2: #52514e; --muted: #6f6d68;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --other: #c3c2b7;
+  --neg: #2a78d6; --pos: #e34948; --mid: #f0efec;
+  --wash: rgba(42,120,214,0.10);
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19;
+    --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --other: #4a4a46;
+    --neg: #3987e5; --pos: #e66767; --mid: #383835;
+    --wash: rgba(57,135,229,0.14);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19;
+  --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f;
+  --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+  --s1: #3987e5; --s2: #d95926; --other: #4a4a46;
+  --neg: #3987e5; --pos: #e66767; --mid: #383835;
+  --wash: rgba(57,135,229,0.14);
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; }
+header h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--ink-2); max-width: 70ch; }
+.meta { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 24px 0 8px; }
+.tile { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 14px 16px; }
+.tile .k { font-size: 13px; color: var(--ink-2); }
+.tile .v { font-size: 26px; font-weight: 600; margin-top: 2px; }
+.tile .s { font-size: 13px; color: var(--muted); }
+section { margin-top: 48px; }
+section > h2 { font-size: 21px; margin: 0 0 4px; }
+.answer { color: var(--ink-2); margin: 0 0 16px; max-width: 75ch; }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 16px; margin-top: 12px; }
+.card h3 { font-size: 15px; margin: 0; }
+.card .sub { font-size: 13px; color: var(--muted); margin: 2px 0 10px; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 760px) { .row2 { grid-template-columns: 1fr; } }
+.controls { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 8px 0; font-size: 14px; }
+select, button { font: inherit; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--axis); border-radius: 6px; padding: 4px 8px; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); margin: 4px 0 6px; }
+.legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 6px; border-radius: 1px; }
+.legend i.box { height: 10px; width: 10px; border-radius: 2px; }
+svg { display: block; width: 100%; overflow: visible; }
+svg text { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+svg text.lab { fill: var(--ink-2); font-size: 12px; }
+svg text.val { fill: var(--ink); font-size: 12px; }
+.grid line { stroke: var(--grid); stroke-width: 1; }
+.axis line, .axis path { stroke: var(--axis); stroke-width: 1; }
+#tip { position: fixed; pointer-events: none; z-index: 10; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--ring); border-radius: 8px; padding: 8px 10px; font-size: 13px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); display: none; max-width: 280px; }
+#tip .h { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+#tip .r { display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+#tip .r b { min-width: 52px; font-variant-numeric: tabular-nums; }
+#tip .r i { width: 12px; height: 2px; display: inline-block; }
+details { margin-top: 10px; font-size: 13px; }
+summary { cursor: pointer; color: var(--ink-2); }
+table { border-collapse: collapse; width: 100%; font-size: 13px; margin-top: 6px; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 4px 8px; border-bottom: 1px solid var(--grid); }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--ink-2); font-weight: 600; }
+.scroll { overflow-x: auto; max-height: 420px; overflow-y: auto; }
+.note { font-size: 13px; color: var(--muted); }
+a { color: var(--s1); }
+footer { margin-top: 56px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--grid); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Kitchen Inflation Tracker</h1>
+  <p>What Pakistanis pay for 51 essentials in 17 cities, read every week from the Pakistan Bureau of Statistics' Sensitive Price Indicator (SPI) PDFs.</p>
+  <div class="meta" id="meta"></div>
+</header>
+<div class="tiles" id="tiles"></div>
+
+<section id="q1">
+  <h2>1. Which city pays the most for the same basket?</h2>
+  <p class="answer" id="a1"></p>
+  <div class="card">
+    <h3>Kitchen basket price level by city, whole period</h3>
+    <div class="sub">29 grocery items priced in all 17 cities, weighted by the SPI basket. 100 = 17-city average. The top four are the same on an unweighted index; mid-table order depends on weighting.</div>
+    <div id="cityBars"></div>
+  </div>
+  <div class="card">
+    <h3>Is it stable? Basket price level over time</h3>
+    <div class="controls"><label>Highlight city <select id="citySel"></select></label></div>
+    <div class="legend" id="cityLegend"></div>
+    <div id="cityLine"></div>
+    <details><summary>Rank stability table</summary><div class="scroll" id="stabTable"></div></details>
+  </div>
+  <div class="card">
+    <h3 id="premTitle">What makes it dear</h3>
+    <div class="sub">Average premium over the 17-city mean, by item. Five dearest and five cheapest items.</div>
+    <div id="premBars"></div>
+  </div>
+</section>
+
+<section id="q2">
+  <h2>2. Do poorer households face different inflation?</h2>
+  <p class="answer" id="a2"></p>
+  <div class="card">
+    <h3>Year-on-year SPI inflation by consumption quintile</h3>
+    <div class="sub">Q1 = lowest-spending fifth of households, Q5 = highest. Published by PBS each week.</div>
+    <div class="legend" id="qLegend"></div>
+    <div id="qLine"></div>
+    <details><summary>Table</summary><div class="scroll" id="qTable"></div></details>
+  </div>
+  <div class="row2">
+    <div class="card">
+      <h3>Gap: poorest minus richest (pp)</h3>
+      <div class="sub">Above 0: the poorest quintile faces higher inflation.</div>
+      <div id="gapLine"></div>
+    </div>
+    <div class="card">
+      <h3>Where the poorest basket leans</h3>
+      <div class="sub">Item weight in the lowest-quintile basket minus the combined basket (pp of spending).</div>
+      <div id="wBars"></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Which items open the gap?</h3>
+    <div class="sub">Each item's contribution to YoY inflation for the lowest quintile minus its contribution to the combined index, chained from PBS's weekly item impacts.</div>
+    <div class="controls"><label>Week <select id="gapSel"></select></label></div>
+    <div id="gapBars"></div>
+  </div>
+</section>
+
+<section id="q3">
+  <h2>3. How large is the Ramadan effect, by item?</h2>
+  <p class="answer" id="a3"></p>
+  <div class="card">
+    <h3>Ramadan effect by item: price change in Ramadan minus the item's typical change in other months (pp)</h3>
+    <div class="controls">
+      <label>Items <select id="ramSel"><option value="kitchen">Kitchen items</option><option value="all">All 51 items</option></select></label>
+      <span class="note">Sorted by average effect. Blank = not enough clean weeks that year.</span>
+    </div>
+    <div class="legend" id="ramLegend"></div>
+    <div id="ramHeat"></div>
+    <details><summary>Table</summary><div class="scroll" id="ramTable"></div></details>
+  </div>
+</section>
+
+<section id="quality">
+  <h2>Data quality</h2>
+  <p class="answer">Every number above is parsed from PDFs. These checks run on every weekly build; errors stop publication.</p>
+  <div class="tiles" id="qTiles"></div>
+  <div class="card"><h3>Validation checks this run</h3><div class="scroll" id="issueTable"></div>
+    <p class="note">Full list: <a href="validation.md">validation report</a>. Every cleaning decision: <a href="methods.md">methods note</a>. Downloads: <a href="data/city_index.csv">city_index.csv</a>, <a href="data/quintile_yoy.csv">quintile_yoy.csv</a>, <a href="data/gap_contrib.csv">gap_contrib.csv</a>, <a href="data/ramadan_effect.csv">ramadan_effect.csv</a>.</p>
+  </div>
+</section>
+
+<footer>Source: Pakistan Bureau of Statistics, weekly SPI executive summaries and Appendix-A city price annexes. This is an independent analysis; PBS is not responsible for it.</footer>
+</main>
+<div id="tip" role="status" aria-live="polite"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (id) => document.getElementById(id);
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const NS = "http://www.w3.org/2000/svg";
+const fmt = (v, d = 1) => v == null ? "–" : v.toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+const sgn = (v, d = 1) => v == null ? "–" : (v > 0 ? "+" : v < 0 ? "−" : "") + fmt(Math.abs(v), d);
+const dfmt = (s) => new Date(s + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+
+function el(tag, attrs = {}, parent) {
+  const n = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (parent) parent.appendChild(n);
+  return n;
+}
+function text(parent, x, y, s, attrs = {}) {
+  const t = el("text", { x, y, ...attrs }, parent); t.textContent = s; return t;
+}
+function ticks(lo, hi, n = 5) {
+  const span = hi - lo || 1, step0 = span / n, mag = Math.pow(10, Math.floor(Math.log10(step0)));
+  const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => s >= step0);
+  const out = []; for (let v = Math.ceil(lo / step) * step; v <= hi + 1e-9; v += step) out.push(+v.toFixed(10));
+  return out;
+}
+
+// ---------- tooltip ----------
+const tip = $("tip");
+function showTip(evt, head, rows) {
+  tip.replaceChildren();
+  const h = document.createElement("div"); h.className = "h"; h.textContent = head; tip.appendChild(h);
+  for (const r of rows) {
+    const d = document.createElement("div"); d.className = "r";
+    if (r.color) { const i = document.createElement("i"); i.style.background = r.color; d.appendChild(i); }
+    const b = document.createElement("b"); b.textContent = r.value; d.appendChild(b);
+    const s = document.createElement("span"); s.textContent = r.label; d.appendChild(s);
+    tip.appendChild(d);
+  }
+  tip.style.display = "block";
+  const pad = 14, w = tip.offsetWidth, hgt = tip.offsetHeight;
+  let x = evt.clientX + pad, y = evt.clientY + pad;
+  if (x + w > innerWidth - 8) x = evt.clientX - w - pad;
+  if (y + hgt > innerHeight - 8) y = evt.clientY - hgt - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => { tip.style.display = "none"; };
+
+// ---------- line chart with crosshair ----------
+// series: [{name, color, width, points:[[dateStr, y]], muted}]
+function lineChart(host, series, o = {}) {
+  host.replaceChildren();
+  const W = Math.max(host.clientWidth, 320), H = o.height || 280, m = { t: 10, r: o.right ?? 70, b: 26, l: 40 };
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": o.label || "line chart" }, host);
+  const xs = [...new Set(series.flatMap(s => s.points.map(p => p[0])))].sort();
+  const t = (s) => new Date(s + "T00:00:00").getTime();
+  const x0 = t(xs[0]), x1 = t(xs[xs.length - 1]);
+  const ys = series.flatMap(s => s.points.map(p => p[1])).filter(v => v != null);
+  if (o.refY != null) ys.push(o.refY);
+  let lo = Math.min(...ys), hi = Math.max(...ys); const padY = (hi - lo) * 0.06 || 1; lo -= padY; hi += padY;
+  const X = (s) => m.l + (t(s) - x0) / (x1 - x0 || 1) * (W - m.l - m.r);
+  const Y = (v) => m.t + (hi - v) / (hi - lo) * (H - m.t - m.b);
+  const g = el("g", { class: "grid" }, svg);
+  for (const v of ticks(lo, hi, 5)) {
+    el("line", { x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v) }, g);
+    text(svg, m.l - 6, Y(v) + 4, (o.yFmt || fmt)(v), { "text-anchor": "end" });
+  }
+  if (o.refY != null) el("line", { x1: m.l, x2: W - m.r, y1: Y(o.refY), y2: Y(o.refY), stroke: css("--axis"), "stroke-width": 1 }, svg);
+  const years = [...new Set(xs.map(s => s.slice(0, 4)))];
+  for (const yr of years) {
+    const first = xs.find(s => s.startsWith(yr)); const xp = X(first);
+    if (xp > m.l + 20 || yr === years[0]) text(svg, Math.max(xp, m.l), H - 8, yr, { "text-anchor": "start" });
+  }
+  const ordered = [...series].sort((a, b) => (a.muted ? 0 : 1) - (b.muted ? 0 : 1));
+  for (const s of ordered) {
+    // Break the line where weeks are missing from the archive (> 10 days apart),
+    // so a gap is never drawn as a straight interpolation.
+    let d = "", pen = false, prevT = null;
+    for (const [w, v] of s.points) {
+      if (v == null) { pen = false; continue; }
+      if (prevT != null && t(w) - prevT > 10 * 864e5) pen = false;
+      d += (pen ? "L" : "M") + X(w).toFixed(1) + "," + Y(v).toFixed(1); pen = true; prevT = t(w);
+    }
+    el("path", { d, fill: "none", stroke: s.color, "stroke-width": s.width || 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+    if (!s.muted && s.points.length) {
+      const last = [...s.points].reverse().find(p => p[1] != null);
+      el("circle", { cx: X(last[0]), cy: Y(last[1]), r: 4, fill: s.color, stroke: css("--surface"), "stroke-width": 2 }, svg);
+      if (s.endLabel !== false) text(svg, X(last[0]) + 8, Y(last[1]) + 4, s.name + " " + (o.yFmt || fmt)(last[1]), { class: "lab" });
+    }
+  }
+  const cross = el("line", { y1: m.t, y2: H - m.b, stroke: css("--axis"), "stroke-width": 1, visibility: "hidden" }, svg);
+  const hit = el("rect", { x: m.l, y: m.t, width: Math.max(0, W - m.l - m.r), height: H - m.t - m.b, fill: "transparent", tabindex: 0 }, svg);
+  const lookup = series.map(s => new Map(s.points));
+  const move = (evt) => {
+    const r = svg.getBoundingClientRect(); const px = (evt.clientX - r.left) * W / r.width;
+    let best = xs[0], bd = Infinity; for (const w of xs) { const d = Math.abs(X(w) - px); if (d < bd) { bd = d; best = w; } }
+    cross.setAttribute("x1", X(best)); cross.setAttribute("x2", X(best)); cross.setAttribute("visibility", "visible");
+    const rows = o.tipRows ? o.tipRows(best) : series.filter(s => !s.muted).map((s, i) => ({ color: s.color, value: (o.yFmt || fmt)(lookup[series.indexOf(s)].get(best)), label: s.name }));
+    showTip(evt, "Week ended " + dfmt(best), rows);
+  };
+  hit.addEventListener("pointermove", move);
+  hit.addEventListener("pointerleave", () => { hideTip(); cross.setAttribute("visibility", "hidden"); });
+}
+
+// ---------- horizontal bars from a baseline (diverging by sign) ----------
+function hbars(host, rows, o = {}) {
+  host.replaceChildren();
+  const base = o.base ?? 0, rowH = 26, barH = 16;
+  const W = host.clientWidth || 600, labW = o.labW || 130, valW = 64;
+  const H = rows.length * rowH + 22;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": o.label || "bar chart" }, host);
+  const vals = rows.map(r => r.value).concat([base]);
+  let lo = Math.min(...vals), hi = Math.max(...vals);
+  const span = (hi - lo) || 1; lo -= span * 0.02; hi += span * 0.02;
+  const X = (v) => labW + valW + (v - lo) / (hi - lo) * (W - labW - 2 * valW);
+  const g = el("g", { class: "grid" }, svg);
+  for (const v of ticks(lo, hi, 4)) { el("line", { x1: X(v), x2: X(v), y1: 0, y2: H - 18 }, g); text(svg, X(v), H - 4, (o.tickFmt || fmt)(v), { "text-anchor": "middle" }); }
+  rows.forEach((r, i) => {
+    const y = i * rowH + (rowH - barH) / 2, x0 = X(base), x1 = X(r.value);
+    const color = r.color || (r.value >= base ? css("--pos") : css("--neg"));
+    const left = Math.min(x0, x1), w = Math.max(Math.abs(x1 - x0), 1), rad = Math.min(4, w / 2);
+    // 4px rounded data-end, square at the baseline
+    const right = x1 >= x0;
+    const d = right
+      ? `M${left},${y}H${left + w - rad}Q${left + w},${y} ${left + w},${y + rad}V${y + barH - rad}Q${left + w},${y + barH} ${left + w - rad},${y + barH}H${left}Z`
+      : `M${left + w},${y}H${left + rad}Q${left},${y} ${left},${y + rad}V${y + barH - rad}Q${left},${y + barH} ${left + rad},${y + barH}H${left + w}Z`;
+    const bar = el("path", { d, fill: color, tabindex: 0 }, svg);
+    text(svg, labW - 6, y + barH - 3, r.label, { class: "lab", "text-anchor": "end" });
+    text(svg, right ? x1 + 6 : x1 - 6, y + barH - 3, (o.valFmt || fmt)(r.value), { class: "val", "text-anchor": right ? "start" : "end" });
+    const hitR = el("rect", { x: 0, y: i * rowH, width: W, height: rowH, fill: "transparent" }, svg);
+    const on = (e) => { bar.setAttribute("opacity", 0.8); showTip(e, r.label, r.tip || [{ value: (o.valFmt || fmt)(r.value), label: o.unit || "" }]); };
+    hitR.addEventListener("pointermove", on);
+    hitR.addEventListener("pointerleave", () => { bar.setAttribute("opacity", 1); hideTip(); });
+  });
+  el("line", { x1: X(base), x2: X(base), y1: 0, y2: H - 18, stroke: css("--axis"), "stroke-width": 1 }, svg);
+}
+
+// ---------- diverging heatmap ----------
+function mix(a, b, t) {
+  const p = (h) => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+  const A = p(a), B = p(b);
+  return "#" + A.map((v, i) => Math.round(v + (B[i] - v) * t).toString(16).padStart(2, "0")).join("");
+}
+function heatmap(host, items, cols, get, o = {}) {
+  host.replaceChildren();
+  const W = host.clientWidth || 700, labW = 150, cellH = 24, top = 22;
+  const cw = Math.max(24, Math.min(110, (W - labW) / cols.length));
+  const H = top + items.length * cellH + 4;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": o.label || "heatmap" }, host);
+  const cap = o.cap || 30, mid = css("--mid"), pos = css("--pos"), neg = css("--neg");
+  cols.forEach((c, j) => text(svg, labW + j * cw + cw / 2, 14, String(c), { "text-anchor": "middle", class: "lab" }));
+  items.forEach((it, i) => {
+    const y = top + i * cellH;
+    text(svg, labW - 8, y + cellH / 2 + 4, it, { class: "lab", "text-anchor": "end" });
+    cols.forEach((c, j) => {
+      const v = get(it, c);
+      const faint = o.faint ? o.faint(it, c) : false;
+      const x = labW + j * cw;
+      // Faint cells (within the item's normal swing) stay near the neutral midpoint.
+      const tone = Math.min(Math.abs(v) / cap, 1) * (faint ? 0.25 : 1);
+      const fill = v == null ? "transparent" : mix(mid, v >= 0 ? pos : neg, tone);
+      const r = el("rect", { x: x + 1, y: y + 1, width: cw - 2, height: cellH - 2, rx: 3, fill, tabindex: 0 }, svg);
+      if (v == null) { el("rect", { x: x + 1, y: y + 1, width: cw - 2, height: cellH - 2, rx: 3, fill: "none", stroke: css("--grid") }, svg); }
+      else if (!faint && Math.abs(v) >= (o.labelAbove ?? 5)) {
+        const strong = Math.abs(v) / cap > 0.55;
+        text(svg, x + cw / 2, y + cellH / 2 + 4, sgn(v, 0), { "text-anchor": "middle", class: "val", style: strong ? "fill:#fff" : "" });
+      }
+      const on = (e) => { r.setAttribute("opacity", 0.8); showTip(e, `${it}, Ramadan ${c}`, o.tip(it, c)); };
+      r.addEventListener("pointermove", on);
+      r.addEventListener("pointerleave", () => { r.setAttribute("opacity", 1); hideTip(); });
+    });
+  });
+}
+
+function table(host, cols, rows) {
+  const t = document.createElement("table");
+  const tr = document.createElement("tr");
+  for (const c of cols) { const th = document.createElement("th"); th.textContent = c.h; tr.appendChild(th); }
+  t.appendChild(tr);
+  for (const r of rows) {
+    const row = document.createElement("tr");
+    for (const c of cols) { const td = document.createElement("td"); td.textContent = c.f ? c.f(r) : r[c.k]; row.appendChild(td); }
+    t.appendChild(row);
+  }
+  host.replaceChildren(t);
+}
+function legend(host, items) {
+  host.replaceChildren();
+  for (const it of items) {
+    const s = document.createElement("span"); const i = document.createElement("i");
+    if (it.box) i.className = "box"; i.style.background = it.color; s.appendChild(i);
+    s.appendChild(document.createTextNode(it.label)); host.appendChild(s);
+  }
+}
+function tile(host, k, v, s) {
+  const d = document.createElement("div"); d.className = "tile";
+  for (const [cls, txt] of [["k", k], ["v", v], ["s", s]]) { const e = document.createElement("div"); e.className = cls; e.textContent = txt; d.appendChild(e); }
+  host.appendChild(d);
+}
+
+// ================= render =================
+function render() {
+  const D = DATA, M = D.meta;
+  $("meta").textContent = `Latest week: ${dfmt(M.latest_week)} · ${M.price_weeks} weeks of city prices since ${dfmt(M.first_week)} · updated ${M.generated}`;
+
+  // ---- tiles ----
+  const qLast = D.quintiles[D.quintiles.length - 1];
+  const lastWeek = M.latest_week;
+  const ciLast = D.city_index.filter(r => r.w === lastWeek).sort((a, b) => b.v - a.v);
+  const tiles = $("tiles"); tiles.replaceChildren();
+  tile(tiles, "SPI inflation, year on year", fmt(qLast.combined, 2) + "%", "Week ended " + dfmt(qLast.w));
+  tile(tiles, "Poorest vs richest quintile, YoY", `${fmt(qLast.q1, 1)} vs ${fmt(qLast.q5, 1)}%`, `Gap ${sgn(qLast.q1 - qLast.q5, 2)} pp (Q1 − Q5)`);
+  if (ciLast.length) {
+    tile(tiles, "Dearest city this week", ciLast[0].c, `Kitchen basket ${sgn(ciLast[0].v - 100)}% vs average`);
+    tile(tiles, "Cheapest city this week", ciLast[ciLast.length - 1].c, `${sgn(ciLast[ciLast.length - 1].v - 100)}% vs average`);
+  }
+
+  // ---- Q1 ----
+  const stab = D.city_stability;
+  const top = stab[0], bottom = stab[stab.length - 1];
+  const meanSd = stab.reduce((a, s) => a + s.sd_idx, 0) / stab.length;
+  $("a1").textContent = `${top.city} is the dearest place to fill the same kitchen basket: on average ${sgn(top.mean_idx - 100)}% against the 17-city mean, and the dearest city in ${fmt(top.pct_weeks_dearest, 0)}% of ${top.weeks} weeks. ${bottom.city} is cheapest (${sgn(bottom.mean_idx - 100)}%). The spread between dearest and cheapest city (${fmt(top.mean_idx - bottom.mean_idx)} points) is about ${fmt((top.mean_idx - bottom.mean_idx) / meanSd, 0)} times a typical city's week-to-week standard deviation (${fmt(meanSd, 1)}), so the ranking barely moves.`;
+  hbars($("cityBars"), stab.map(s => ({ label: s.city, value: s.mean_idx,
+    tip: [{ value: fmt(s.mean_idx), label: "average index" }, { value: fmt(s.pct_weeks_dearest, 0) + "%", label: "weeks dearest" }, { value: String(s.median_rank), label: "median rank of 17" }] })),
+    { base: 100, label: "Basket index by city", unit: "index (100 = average)" });
+
+  const cities = stab.map(s => s.city);
+  const sel = $("citySel"); sel.replaceChildren();
+  for (const c of cities) { const op = document.createElement("option"); op.value = op.textContent = c; sel.appendChild(op); }
+  const byCity = {}; for (const r of D.city_index) (byCity[r.c] ||= []).push([r.w, r.v]);
+  const byWeek = {}; for (const r of D.city_index) (byWeek[r.w] ||= []).push(r);
+  const drawCity = () => {
+    const pick = sel.value;
+    const series = cities.map(c => ({ name: c, color: c === pick ? css("--s1") : css("--other"), width: c === pick ? 2 : 1, muted: c !== pick, points: byCity[c] }));
+    legend($("cityLegend"), [{ label: pick, color: css("--s1") }, { label: "other 16 cities", color: css("--other") }]);
+    lineChart($("cityLine"), series, { refY: 100, label: "City basket index over time", right: 110,
+      tipRows: (w) => { const rs = [...byWeek[w]].sort((a, b) => b.v - a.v); const me = rs.find(r => r.c === pick);
+        return [{ color: css("--s1"), value: fmt(me?.v), label: `${pick} (rank ${me?.r} of 17)` },
+                { color: css("--other"), value: fmt(rs[0].v), label: `dearest: ${rs[0].c}` },
+                { color: css("--other"), value: fmt(rs[rs.length - 1].v), label: `cheapest: ${rs[rs.length - 1].c}` }]; } });
+    const prem = D.city_premium.filter(r => r.city === pick);
+    const show = prem.slice(0, 5).concat(prem.slice(-5));
+    $("premTitle").textContent = `What makes ${pick} dear or cheap`;
+    hbars($("premBars"), show.map(r => ({ label: r.short_name, value: r.premium_pct })), { valFmt: (v) => sgn(v) + "%", tickFmt: (v) => v + "%", unit: "vs 17-city mean" });
+  };
+  sel.onchange = drawCity; sel.value = top.city; drawCity();
+  table($("stabTable"), [{ h: "City", k: "city" }, { h: "Mean", f: r => fmt(r.mean_idx) }, { h: "SD", f: r => fmt(r.sd_idx, 2) },
+    { h: "Min", f: r => fmt(r.min_idx) }, { h: "Max", f: r => fmt(r.max_idx) }, { h: "Median rank", k: "median_rank" },
+    { h: "% weeks dearest", f: r => fmt(r.pct_weeks_dearest, 0) }, { h: "% top 3", f: r => fmt(r.pct_weeks_top3, 0) }, { h: "% bottom 3", f: r => fmt(r.pct_weeks_bottom3, 0) }], stab);
+
+  // ---- Q2 ----
+  const Q = D.quintiles;
+  const gaps = Q.filter(r => r.q1 != null && r.q5 != null).map(r => r.q1 - r.q5);
+  const pctAbove = 100 * gaps.filter(g => g > 0).length / gaps.length;
+  const wd = D.weights.map(r => [r.item, r.w_q1 - r.w_combined]).sort((a, b) => b[1] - a[1]);
+  const more = wd.slice(0, 4).map(r => r[0].toLowerCase()).join(", ");
+  const less = wd.slice(-3).reverse().map(r => r[0].toLowerCase()).join(", ");
+  $("a2").textContent = `Yes, and the direction flips. Over ${gaps.length} weeks the poorest quintile's inflation was above the richest's in ${fmt(pctAbove, 0)}% of weeks; the gap ranged from ${sgn(Math.min(...gaps))} to ${sgn(Math.max(...gaps))} pp. In the latest week it was ${fmt(qLast.q1, 2)}% for Q1 against ${fmt(qLast.q5, 2)}% for Q5. The baskets are fixed but different: compared with the combined basket the poorest spend relatively more on ${more}, and less on ${less}, so whichever of those moves sets the sign of the gap.`;
+  legend($("qLegend"), [{ label: "Q1 (poorest)", color: css("--s1") }, { label: "Q5 (richest)", color: css("--s2") }, { label: "Combined", color: css("--other") }]);
+  lineChart($("qLine"), [
+    { name: "Combined", color: css("--other"), width: 1.5, muted: false, endLabel: false, points: Q.map(r => [r.w, r.combined]) },
+    { name: "Q1", color: css("--s1"), points: Q.map(r => [r.w, r.q1]) },
+    { name: "Q5", color: css("--s2"), points: Q.map(r => [r.w, r.q5]) },
+  ], { yFmt: (v) => fmt(v, 0) + "%", refY: 0, label: "YoY inflation by quintile",
+       tipRows: (w) => { const r = Q.find(x => x.w === w); return [
+         { color: css("--s1"), value: fmt(r.q1, 2) + "%", label: "Q1 poorest" }, { value: fmt(r.q2, 2) + "%", label: "Q2" },
+         { value: fmt(r.q3, 2) + "%", label: "Q3" }, { value: fmt(r.q4, 2) + "%", label: "Q4" },
+         { color: css("--s2"), value: fmt(r.q5, 2) + "%", label: "Q5 richest" }, { color: css("--other"), value: fmt(r.combined, 2) + "%", label: "Combined" }]; } });
+  table($("qTable"), [{ h: "Week", k: "w" }, ...["q1", "q2", "q3", "q4", "q5", "combined"].map(k => ({ h: k.toUpperCase(), f: r => fmt(r[k], 2) }))], [...Q].reverse());
+  lineChart($("gapLine"), [{ name: "Q1 − Q5", color: css("--s1"), points: Q.map(r => [r.w, r.q1 != null && r.q5 != null ? +(r.q1 - r.q5).toFixed(2) : null]) }],
+    { refY: 0, height: 220, right: 80, yFmt: (v) => sgn(v), label: "Quintile gap" });
+  const wr = D.weights.map(r => ({ label: r.item, value: +(r.w_q1 - r.w_combined).toFixed(2),
+    tip: [{ value: fmt(r.w_q1, 2) + "%", label: "lowest-quintile weight" }, { value: fmt(r.w_combined, 2) + "%", label: "combined weight" }] }))
+    .sort((a, b) => b.value - a.value);
+  hbars($("wBars"), wr.slice(0, 6).concat(wr.slice(-6)), { valFmt: (v) => sgn(v, 2), labW: 120, unit: "pp" });
+
+  const gWeeks = [...new Set(D.gap.map(r => r.w))].sort().reverse();
+  const gs = $("gapSel"); gs.replaceChildren();
+  if (!gWeeks.length) {
+    $("gapBars").textContent = "Needs 52 consecutive weekly summaries; not enough history parsed yet.";
+  } else {
+    for (const w of gWeeks) { const op = document.createElement("option"); op.value = w; op.textContent = dfmt(w); gs.appendChild(op); }
+    const drawGap = () => {
+      const rows = D.gap.filter(r => r.w === gs.value).sort((a, b) => Math.abs(b.gap) - Math.abs(a.gap)).slice(0, 12)
+        .sort((a, b) => b.gap - a.gap);
+      hbars($("gapBars"), rows.map(r => ({ label: r.item, value: r.gap,
+        tip: [{ value: sgn(r.gap, 2) + " pp", label: "gap contribution" }, { value: sgn(r.q1, 2) + " pp", label: "to Q1 YoY" }, { value: sgn(r.comb, 2) + " pp", label: "to combined YoY" }] })),
+        { valFmt: (v) => sgn(v, 2), labW: 140, unit: "pp" });
+    };
+    gs.onchange = drawGap; drawGap();
+  }
+
+  // ---- Q3 ----
+  const R = D.ramadan, years = D.ramadan_dates.map(r => r.year).filter(y => R.some(x => x.year === y));
+  const drawRam = () => {
+    const keep = $("ramSel").value === "all" ? R : R.filter(r => r.g === "kitchen");
+    const byItem = {}; for (const r of keep) (byItem[r.item] ||= {})[r.year] = r;
+    const avg = (it) => { const v = Object.values(byItem[it]).map(r => r.net); return v.reduce((a, b) => a + b, 0) / v.length; };
+    const items = Object.keys(byItem).sort((a, b) => avg(b) - avg(a));
+    legend($("ramLegend"), [{ label: "Rose more than in a typical month", color: css("--pos"), box: true }, { label: "Rose less / fell", color: css("--neg"), box: true }, { label: "Faint = within the item's normal monthly swing", color: css("--mid"), box: true }]);
+    heatmap($("ramHeat"), items, years, (it, y) => byItem[it][y]?.net ?? null, { cap: 30, label: "Ramadan effect heatmap",
+      faint: (it, y) => byItem[it][y] ? !byItem[it][y].clear : false,
+      tip: (it, y) => { const r = byItem[it][y]; if (!r) return [{ value: "–", label: "not enough clean weeks" }];
+        return [{ value: sgn(r.net) + " pp", label: "Ramadan effect (vs typical month)" }, { value: sgn(r.chg_pct) + "%", label: "price change in Ramadan" },
+                { value: sgn(r.typical_pct) + "%", label: "typical 4-week change" }, { value: "±" + fmt(r.iqr / 2) + " pp", label: "normal swing (half IQR)" },
+                { value: sgn(r.runup_pct) + "%", label: "week before Ramadan" }, { value: sgn(r.peak_pct) + "%", label: "Ramadan peak" }]; } });
+    table($("ramTable"), [{ h: "Item", k: "item" }, { h: "Year", k: "year" }, { h: "Effect pp", f: r => sgn(r.net) }, { h: "Clear?", f: r => r.clear ? "yes" : "no" },
+      { h: "Ramadan change %", f: r => sgn(r.chg_pct) }, { h: "Typical %", f: r => sgn(r.typical_pct) }, { h: "Run-up week %", f: r => sgn(r.runup_pct) },
+      { h: "Peak %", f: r => sgn(r.peak_pct) }], keep);
+  };
+  $("ramSel").onchange = drawRam; drawRam();
+  // Classify by consistency across years, not by the average: an item that is
+  // +20 one year and -20 the next has no stable "Ramadan effect".
+  const kit = R.filter(r => r.g === "kitchen");
+  const per = {}; for (const r of kit) (per[r.item] ||= []).push(r);
+  const full = Object.entries(per).filter(([, v]) => v.length === years.length);
+  const lab = (k, v) => `${k.toLowerCase()} (${v.map(r => sgn(r.net, 0)).join(" / ")} pp)`;
+  if (full.length) {
+    const avgNet = (v) => v.reduce((a, r) => a + r.net, 0) / v.length;
+    const up = full.filter(([, v]) => v.every(r => r.net > 0 && r.clear)).sort((a, b) => avgNet(b[1]) - avgNet(a[1])).map(([k, v]) => lab(k, v));
+    const down = full.filter(([, v]) => v.every(r => r.net < 0 && r.clear)).map(([k, v]) => lab(k, v));
+    const mixed = full.filter(([, v]) => v.some(r => r.clear && r.net > 0) && v.some(r => r.clear && r.net < 0))
+      .sort((a, b) => Math.max(...b[1].map(r => Math.abs(r.net))) - Math.max(...a[1].map(r => Math.abs(r.net))))
+      .map(([k, v]) => lab(k, v));
+    const quiet = full.filter(([, v]) => v.every(r => !r.clear)).length;
+    const parts = [`Measured as the price change from the four weeks before Ramadan to the Ramadan weeks, minus the item's typical change over the same window shape in other months.`];
+    parts.push(up.length ? `A clear rise in every Ramadan (${years.join(", ")}): ${up.join(", ")}.` : `No kitchen item shows a clear rise in every Ramadan (${years.join(", ")}).`);
+    if (down.length) parts.push(`A clear fall every time: ${down.join(", ")}.`);
+    if (mixed.length) parts.push(`Clear but in opposite directions in different years: ${mixed.slice(0, 3).join(", ")}. Every Ramadan so far has fallen in late winter or spring, so for items with strong seasonal swings the archive can't yet separate season from Ramadan; that improves as Ramadan moves about 11 days earlier each year.`);
+    parts.push(`${quiet} of ${full.length} kitchen items never moved beyond their normal monthly swing.`);
+    $("a3").textContent = parts.join(" ");
+  }
+
+  // ---- quality ----
+  const qt = $("qTiles"); qt.replaceChildren();
+  tile(qt, "Weeks of city prices", String(M.price_weeks), `${M.price_rows.toLocaleString()} price rows`);
+  tile(qt, "Report files", `${M.files_used} used`, `of ${M.files_found} SPI files found`);
+  const X = D.xlsx_check;
+  tile(qt, "PDF parser vs PBS Excel", X.weeks ? `${X.mismatches} mismatches` : "n/a", X.weeks ? `${X.cells.toLocaleString()} cells over ${X.weeks} weeks` : "no overlapping weeks");
+  const sev = {}; for (const r of D.quality) sev[r.severity] = (sev[r.severity] || 0) + r.n;
+  tile(qt, "Validation", `${sev.error || 0} errors`, `${sev.warn || 0} warnings · ${sev.info || 0} notes`);
+  const qrows = {}; for (const r of D.quality) (qrows[r.check] ||= { check: r.check, error: 0, warn: 0, info: 0 })[r.severity] = r.n;
+  table($("issueTable"), [{ h: "Check", k: "check" }, { h: "Errors", k: "error" }, { h: "Warnings", k: "warn" }, { h: "Notes", k: "info" }], Object.values(qrows));
+}
+render();
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(render, 150); });
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+</script>
+</body>
+</html>
