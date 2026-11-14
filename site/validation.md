@@ -1,14 +1,14 @@
 # Validation report
 
-_Generated 2026-11-10 21:46 UTC by the pipeline. Checks are defined in `src/kitchen_inflation/validate.py`; cleaning rules in `clean.py`; both are explained in `docs/methods.md`._
+_Generated 2026-11-14 13:06 UTC by the pipeline. Checks are defined in `src/kitchen_inflation/validate.py`; cleaning rules in `clean.py`; both are explained in `docs/methods.md`._
 
 ## Coverage
 
-- Weeks with city prices: **163** (2023-02-16 to 2026-11-05)
-- Weeks with quintile data: **162**
-- Price rows: **141,321**; NULL (reported as 0.00): 579
-- Parse method: mcid: 141,321
-- Source files discovered: 481, selected: 385
+- Weeks with city prices: **164** (2023-02-16 to 2026-11-12)
+- Weeks with quintile data: **163**
+- Price rows: **142,188**; NULL (reported as 0.00): 582
+- Parse method: mcid: 142,188
+- Source files discovered: 485, selected: 388
 
 ## Issues by check
 
@@ -20,7 +20,7 @@ _Generated 2026-11-10 21:46 UTC by the pipeline. Checks are defined in `src/kitc
 | V6_big_jump | 0 | 0 | 2 |
 | V6_possible_unit_change | 0 | 2 | 0 |
 | V7_missing_weeks | 0 | 8 | 0 |
-| V9_pdf_vs_xlsx | 0 | 0 | 60 |
+| V9_pdf_vs_xlsx | 0 | 0 | 61 |
 | filename_date_mismatch | 0 | 0 | 1 |
 | summary_link | 0 | 0 | 1 |
 | zero_as_missing | 0 | 0 | 1 |
@@ -64,7 +64,7 @@ _Generated 2026-11-10 21:46 UTC by the pipeline. Checks are defined in `src/kitc
 - **warn** `2026-05-21 -> 2026-06-04`: 1 week(s) with no annex found
 - **warn** `2026-06-18 -> 2026-07-02`: 1 week(s) with no annex found
 
-### V9_pdf_vs_xlsx (60)
+### V9_pdf_vs_xlsx (61)
 
 - **info** `2025-04-30`: 0 of 2601 cells differ, 0 unmatched keys
 - **info** `2025-05-15`: 0 of 2601 cells differ, 0 unmatched keys
@@ -106,7 +106,7 @@ _Generated 2026-11-10 21:46 UTC by the pipeline. Checks are defined in `src/kitc
 - **info** `2026-05-21`: 0 of 2601 cells differ, 0 unmatched keys
 - **info** `2026-06-04`: 0 of 2601 cells differ, 0 unmatched keys
 - **info** `2026-06-11`: 0 of 2601 cells differ, 0 unmatched keys
-- ... 20 more in `data/clean/issues.csv`
+- ... 21 more in `data/clean/issues.csv`
 
 ### filename_date_mismatch (1)
 
@@ -114,8 +114,8 @@ _Generated 2026-11-10 21:46 UTC by the pipeline. Checks are defined in `src/kitc
 
 ### summary_link (1)
 
-- **info** `summary_items`: 8203 rows linked by price, 59 by name (C4)
+- **info** `summary_items`: 8254 rows linked by price, 59 by name (C4)
 
 ### zero_as_missing (1)
 
-- **info** `prices`: 579 city-item-weeks reported as 0.00 -> NULL (C1)
+- **info** `prices`: 582 city-item-weeks reported as 0.00 -> NULL (C1)

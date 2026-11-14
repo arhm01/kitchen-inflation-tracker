@@ -1,7 +1,7 @@
 severity,check,subject,detail
 info,filename_date_mismatch,Executive-Summary-SPI-Report_20.02.2026.pdf,"name says 2026-02-20, content says 2026-02-19"
-info,zero_as_missing,prices,579 city-item-weeks reported as 0.00 -> NULL (C1)
-info,summary_link,summary_items,"8203 rows linked by price, 59 by name (C4)"
+info,zero_as_missing,prices,582 city-item-weeks reported as 0.00 -> NULL (C1)
+info,summary_link,summary_items,"8254 rows linked by price, 59 by name (C4)"
 info,V11_index_revision,2025-11-27 Q1,previous-week index revised by +2.04 points vs the 2025-11-20 report
 warn,V4_city_outlier,2025-04-24 Larkana Tomatoes,11.45 vs median 60.00 (0.19x)
 warn,V4_city_outlier,2025-04-30 Larkana Tomatoes,13.1 vs median 56.46 (0.23x)
@@ -80,4 +80,5 @@ info,V9_pdf_vs_xlsx,2026-10-15,"0 of 2601 cells differ, 0 unmatched keys"
 info,V9_pdf_vs_xlsx,2026-10-22,"0 of 2601 cells differ, 0 unmatched keys"
 info,V9_pdf_vs_xlsx,2026-10-29,"0 of 2601 cells differ, 0 unmatched keys"
 info,V9_pdf_vs_xlsx,2026-11-05,"0 of 2601 cells differ, 0 unmatched keys"
+info,V9_pdf_vs_xlsx,2026-11-12,"0 of 2601 cells differ, 0 unmatched keys"
 info,V10_decomposition,all weeks,100% of week-baskets close within 0.15pp; median |gap| 0.003pp

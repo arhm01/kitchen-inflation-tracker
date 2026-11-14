@@ -141320,3 +141320,870 @@ week_end,item_no,short_name,group,spec_version,item_name,unit,city,city_code,pri
 2026-11-05,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Bannu,15,136.02,136.02,136.02,mcid,Annex_05.11.pdf
 2026-11-05,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Quetta,16,136.02,136.02,136.02,mcid,Annex_05.11.pdf
 2026-11-05,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Khuzdar,17,136.02,136.02,136.02,mcid,Annex_05.11.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Islamabad,1,3386.67,3433.18,3493.33,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Rawalpindi,2,2200.0,3028.47,3466.67,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Gujranwala,3,2200.0,2745.47,3067.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Sialkot,4,2200.0,2824.28,3200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Lahore,5,2200.0,2477.84,3133.33,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Faisalabad,6,2200.0,2705.34,3000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Sargodha,7,2200.0,2439.62,3000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Multan,8,2200.0,2418.34,2933.33,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Bahawalpur,9,2946.66,2964.33,3000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Karachi,10,3200.0,3318.34,3500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Hyderabad,11,3300.0,3339.88,3360.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Sukkur,12,3080.0,3080.0,3080.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Larkana,13,3150.0,3183.25,3200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Peshawar,14,2520.0,3081.72,3300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Bannu,15,3300.0,3333.0,3400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Quetta,16,3190.0,3204.99,3220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,1,Wheat flour (20kg),kitchen,1,Wheat Flour Bag,20 Kg,Khuzdar,17,3200.0,3200.0,3200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Islamabad,1,260.0,274.83,290.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Rawalpindi,2,260.0,271.87,290.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Gujranwala,3,180.0,180.0,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Sialkot,4,160.0,160.0,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Lahore,5,220.0,228.47,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Faisalabad,6,220.0,233.14,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Sargodha,7,160.0,160.0,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Multan,8,180.0,193.1,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Bahawalpur,9,190.0,203.11,210.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Karachi,10,270.0,283.54,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Hyderabad,11,200.0,213.12,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Sukkur,12,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Larkana,13,230.0,236.62,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Peshawar,14,220.0,222.18,230.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Bannu,15,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Quetta,16,300.0,309.93,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,2,Rice basmati,kitchen,1,Rice Basmati Broken (Average Quality),1 Kg,Khuzdar,17,240.0,246.62,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Islamabad,1,160.0,178.64,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Rawalpindi,2,150.0,164.27,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Gujranwala,3,,,,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Sialkot,4,,,,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Lahore,5,,,,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Faisalabad,6,160.0,160.0,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Sargodha,7,180.0,186.61,190.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Multan,8,130.0,140.92,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Bahawalpur,9,190.0,196.61,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Karachi,10,160.0,175.45,190.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Hyderabad,11,120.0,123.24,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Sukkur,12,130.0,133.25,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Larkana,13,110.0,116.57,120.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Peshawar,14,130.0,134.35,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Bannu,15,160.0,166.6,170.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Quetta,16,150.0,159.87,170.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,3,Rice IRRI,kitchen,1,Rice IRRI-6/9 (Sindh/Punjab),1 Kg,Khuzdar,17,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Islamabad,1,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Rawalpindi,2,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Gujranwala,3,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Sialkot,4,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Lahore,5,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Faisalabad,6,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Sargodha,7,100.0,100.0,100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Multan,8,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Bahawalpur,9,110.0,113.24,120.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Karachi,10,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Hyderabad,11,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Sukkur,12,130.0,134.91,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Larkana,13,110.0,116.57,120.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Peshawar,14,120.0,120.0,120.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Bannu,15,100.0,100.0,100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Quetta,16,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,4,Bread,kitchen,1,Bread plain (Small Size),Each,Khuzdar,17,120.0,120.0,120.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Islamabad,1,1450.0,1491.13,1550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Rawalpindi,2,1450.0,1515.94,1600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Gujranwala,3,1200.0,1200.0,1200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Sialkot,4,1300.0,1300.0,1300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Lahore,5,1200.0,1295.92,1400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Faisalabad,6,1400.0,1432.57,1500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Sargodha,7,1200.0,1200.0,1200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Multan,8,1250.0,1299.79,1350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Bahawalpur,9,1100.0,1116.42,1150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Karachi,10,1400.0,1470.13,1600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Hyderabad,11,1250.0,1291.53,1300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Sukkur,12,1200.0,1200.0,1200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Larkana,13,1200.0,1265.77,1300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Peshawar,14,1100.0,1274.41,1400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Bannu,15,1000.0,1032.28,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Quetta,16,1200.0,1274.1,1350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,5,Beef,kitchen,1,Beef with Bone (Average Quality),1 Kg,Khuzdar,17,1300.0,1300.0,1300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Islamabad,1,2800.0,2853.49,3000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Rawalpindi,2,2750.0,2803.07,2850.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Gujranwala,3,2600.0,2600.0,2600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Sialkot,4,2500.0,2500.0,2500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Lahore,5,2900.0,2928.23,3000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Faisalabad,6,2400.0,2464.9,2600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Sargodha,7,2200.0,2216.54,2250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Multan,8,2500.0,2555.29,2600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Bahawalpur,9,2200.0,2266.17,2300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Karachi,10,2400.0,2585.94,3000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Hyderabad,11,2350.0,2412.23,2500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Sukkur,12,2000.0,2000.0,2000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Larkana,13,2000.0,2131.2,2200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Peshawar,14,2100.0,2347.75,2600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Bannu,15,1800.0,1800.0,1800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Quetta,16,2200.0,2348.05,2500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,6,Mutton,kitchen,1,Mutton (Average Quality),1 Kg,Khuzdar,17,2200.0,2395.71,2500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Islamabad,1,425.0,445.77,480.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Rawalpindi,2,435.0,444.29,460.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Gujranwala,3,418.0,418.0,418.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Sialkot,4,418.0,418.0,418.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Lahore,5,408.0,408.0,408.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Faisalabad,6,435.0,435.0,435.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Sargodha,7,425.0,426.66,430.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Multan,8,415.0,415.0,415.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Bahawalpur,9,390.0,390.0,390.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Karachi,10,420.0,434.41,460.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Hyderabad,11,400.0,407.48,410.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Sukkur,12,420.0,420.0,420.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Larkana,13,420.0,423.31,430.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Peshawar,14,445.0,445.0,445.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Bannu,15,440.0,440.0,440.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Quetta,16,470.0,481.62,490.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,7,Chicken,kitchen,1,Chicken Farm Broiler (Live),1 Kg,Khuzdar,17,550.0,550.0,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Islamabad,1,240.0,256.56,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Rawalpindi,2,220.0,244.34,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Gujranwala,3,220.0,220.0,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Sialkot,4,230.0,243.15,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Lahore,5,210.0,218.02,230.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Faisalabad,6,200.0,206.46,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Sargodha,7,170.0,176.6,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Multan,8,200.0,209.95,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Bahawalpur,9,180.0,186.43,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Karachi,10,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Hyderabad,11,230.0,230.0,230.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Sukkur,12,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Larkana,13,240.0,243.29,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Peshawar,14,250.0,266.46,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Bannu,15,180.0,193.1,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Quetta,16,220.0,220.0,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,8,Milk,kitchen,1,Milk fresh (Un-boiled),1 Ltr,Khuzdar,17,220.0,226.47,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Islamabad,1,280.0,281.61,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Rawalpindi,2,250.0,271.7,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Gujranwala,3,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Sialkot,4,240.0,253.15,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Lahore,5,250.0,258.99,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Faisalabad,6,240.0,243.29,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Sargodha,7,230.0,233.29,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Multan,8,250.0,255.51,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Bahawalpur,9,220.0,220.0,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Karachi,10,360.0,364.06,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Hyderabad,11,320.0,326.53,340.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Sukkur,12,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Larkana,13,280.0,286.51,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Peshawar,14,270.0,281.02,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Bannu,15,200.0,213.12,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Quetta,16,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,9,Curd,kitchen,1,Curd (Dahi) Loose,1 Kg,Khuzdar,17,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Islamabad,1,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Rawalpindi,2,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Gujranwala,3,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Sialkot,4,1180.0,1180.0,1180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Lahore,5,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Faisalabad,6,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Sargodha,7,1150.0,1153.32,1160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Multan,8,1144.0,1144.0,1144.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Bahawalpur,9,1130.0,1130.0,1130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Karachi,10,1120.0,1145.7,1160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Hyderabad,11,1190.0,1196.66,1200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Sukkur,12,1150.0,1150.0,1150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Larkana,13,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Peshawar,14,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Bannu,15,1100.0,1100.0,1100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Quetta,16,1175.0,1177.5,1180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,10,Powdered milk,kitchen,1,Powdered Milk NIDO 390 gm Polybag,Each,Khuzdar,17,1170.0,1170.0,1170.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Islamabad,1,275.0,276.24,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Rawalpindi,2,272.0,274.86,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Gujranwala,3,270.0,270.0,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Sialkot,4,270.0,270.0,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Lahore,5,271.0,271.0,271.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Faisalabad,6,271.0,271.0,271.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Sargodha,7,271.0,271.0,271.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Multan,8,255.0,261.06,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Bahawalpur,9,260.0,260.0,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Karachi,10,275.0,279.38,290.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Hyderabad,11,250.0,259.97,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Sukkur,12,280.0,280.0,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Larkana,13,260.0,260.0,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Peshawar,14,250.0,282.97,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Bannu,15,270.0,270.0,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Quetta,16,270.0,284.84,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,11,Eggs (dozen),kitchen,1,Eggs Hen (Farm),1 Dozen,Khuzdar,17,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Islamabad,1,660.0,686.46,720.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Rawalpindi,2,650.0,667.27,680.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Gujranwala,3,540.0,543.31,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Sialkot,4,550.0,550.0,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Lahore,5,570.0,585.2,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Faisalabad,6,580.0,580.0,580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Sargodha,7,500.0,500.0,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Multan,8,570.0,576.65,580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Bahawalpur,9,570.0,570.0,570.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Karachi,10,520.0,572.86,660.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Hyderabad,11,500.0,506.58,520.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Sukkur,12,480.0,480.0,480.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Larkana,13,600.0,600.0,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Peshawar,14,600.0,638.65,650.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Bannu,15,500.0,500.0,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Quetta,16,590.0,604.9,620.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,12,Mustard oil,kitchen,1,Mustard Oil (Average Quality),1 Kg,Khuzdar,17,600.0,600.0,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Islamabad,1,3115.0,3115.0,3115.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Rawalpindi,2,3115.0,3115.0,3115.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Gujranwala,3,3115.0,3115.0,3115.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Sialkot,4,3101.0,3101.0,3101.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Lahore,5,3090.0,3090.0,3090.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Faisalabad,6,3115.0,3115.0,3115.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Sargodha,7,3090.0,3090.0,3090.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Multan,8,3090.0,3090.0,3090.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Bahawalpur,9,3109.0,3109.0,3109.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Karachi,10,3090.0,3095.29,3115.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Hyderabad,11,3090.0,3090.0,3090.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Sukkur,12,3090.0,3090.0,3090.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Larkana,13,3110.0,3110.0,3110.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Peshawar,14,3090.0,3090.0,3090.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Bannu,15,3100.0,3100.0,3100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Quetta,16,3115.0,3115.0,3115.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,13,Cooking oil (5L),kitchen,1,"Cooking Oil DALDA or Other Similar Brand (SN), 5 Litre Tin",Each,Khuzdar,17,3090.0,3090.0,3090.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Islamabad,1,1605.0,1605.0,1605.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Rawalpindi,2,1605.0,1605.0,1605.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Gujranwala,3,1605.0,1605.0,1605.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Sialkot,4,1599.16,1599.16,1599.16,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Lahore,5,1580.0,1580.0,1580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Faisalabad,6,1605.0,1605.0,1605.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Sargodha,7,1580.0,1580.0,1580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Multan,8,1580.0,1580.0,1580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Bahawalpur,9,1515.0,1515.0,1515.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Karachi,10,1580.0,1586.02,1605.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Hyderabad,11,1605.0,1605.0,1605.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Sukkur,12,1580.0,1580.0,1580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Larkana,13,1580.0,1580.0,1580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Peshawar,14,1580.0,1580.0,1580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Bannu,15,1550.0,1550.0,1550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Quetta,16,1605.0,1605.0,1605.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,14,Ghee (2.5kg),kitchen,1,Vegetable Ghee DALDA/HABIB 2.5 kg Tin,Each,Khuzdar,17,1580.0,1580.0,1580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Islamabad,1,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Rawalpindi,2,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Gujranwala,3,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Sialkot,4,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Lahore,5,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Faisalabad,6,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Sargodha,7,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Multan,8,630.0,630.0,630.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Bahawalpur,9,610.0,613.33,615.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Karachi,10,615.0,621.8,630.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Hyderabad,11,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Sukkur,12,610.0,610.0,610.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Larkana,13,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Peshawar,14,625.0,625.0,625.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Bannu,15,600.0,600.0,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Quetta,16,630.0,630.0,630.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,15,Ghee (1kg),kitchen,1,Vegetable Ghee DALDA/HABIB or Other superior Quality 1 kg Pouch,Each,Khuzdar,17,615.0,615.0,615.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Islamabad,1,180.0,215.38,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Rawalpindi,2,180.0,189.14,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Gujranwala,3,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Sialkot,4,100.0,114.47,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Lahore,5,130.0,146.76,170.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Faisalabad,6,100.0,109.14,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Sargodha,7,120.0,120.0,120.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Multan,8,150.0,165.01,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Bahawalpur,9,100.0,121.64,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Karachi,10,80.0,111.3,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Hyderabad,11,80.0,90.42,100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Sukkur,12,100.0,100.0,100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Larkana,13,80.0,83.2,90.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Peshawar,14,120.0,139.42,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Bannu,15,120.0,120.0,120.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Quetta,16,80.0,87.89,100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,16,Bananas (dozen),kitchen,1,Bananas (Kela) Local,1 Dozen,Khuzdar,17,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Islamabad,1,290.0,313.78,340.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Rawalpindi,2,300.0,309.89,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Gujranwala,3,230.0,230.0,230.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Sialkot,4,260.0,260.0,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Lahore,5,240.0,245.19,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Faisalabad,6,230.0,249.1,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Sargodha,7,250.0,253.29,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Multan,8,290.0,295.51,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Bahawalpur,9,240.0,243.29,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Karachi,10,260.0,278.78,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Hyderabad,11,240.0,249.02,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Sukkur,12,260.0,260.0,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Larkana,13,280.0,280.0,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Peshawar,14,250.0,264.19,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Bannu,15,270.0,270.0,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Quetta,16,300.0,309.93,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,17,Pulse masoor,kitchen,1,Pulse Masoor (Washed),1 Kg,Khuzdar,17,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Islamabad,1,370.0,396.27,430.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Rawalpindi,2,340.0,359.58,370.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Gujranwala,3,280.0,280.0,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Sialkot,4,370.0,370.0,370.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Lahore,5,320.0,328.98,340.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Faisalabad,6,340.0,346.54,360.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Sargodha,7,330.0,333.3,340.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Multan,8,380.0,391.01,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Bahawalpur,9,290.0,296.63,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Karachi,10,320.0,357.02,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Hyderabad,11,300.0,312.36,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Sukkur,12,400.0,400.0,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Larkana,13,400.0,426.24,440.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Peshawar,14,320.0,335.32,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Bannu,15,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Quetta,16,410.0,419.95,430.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,18,Pulse moong,kitchen,1,Pulse Moong (Washed),1 Kg,Khuzdar,17,380.0,393.22,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Islamabad,1,480.0,514.68,540.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Rawalpindi,2,480.0,499.23,520.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Gujranwala,3,480.0,480.0,480.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Sialkot,4,500.0,500.0,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Lahore,5,470.0,485.17,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Faisalabad,6,440.0,446.57,460.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Sargodha,7,480.0,480.0,480.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Multan,8,490.0,508.79,520.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Bahawalpur,9,390.0,396.56,410.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Karachi,10,440.0,468.74,520.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Hyderabad,11,440.0,443.31,450.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Sukkur,12,420.0,420.0,420.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Larkana,13,480.0,486.58,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Peshawar,14,460.0,474.23,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Bannu,15,460.0,460.0,460.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Quetta,16,490.0,499.96,510.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,19,Pulse mash,kitchen,1,Pulse Mash (Washed),1 Kg,Khuzdar,17,480.0,486.58,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Islamabad,1,300.0,328.8,360.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Rawalpindi,2,300.0,313.28,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Gujranwala,3,280.0,280.0,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Sialkot,4,290.0,290.0,290.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Lahore,5,250.0,259.67,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Faisalabad,6,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Sargodha,7,280.0,280.0,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Multan,8,320.0,323.3,330.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Bahawalpur,9,260.0,266.5,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Karachi,10,300.0,318.56,340.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Hyderabad,11,290.0,302.31,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Sukkur,12,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Larkana,13,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Peshawar,14,340.0,353.24,370.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Bannu,15,320.0,320.0,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Quetta,16,330.0,339.94,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,20,Pulse gram,kitchen,1,Pulse Gram,1 Kg,Khuzdar,17,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Islamabad,1,70.0,82.71,100.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Rawalpindi,2,55.0,76.2,90.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Gujranwala,3,70.0,70.0,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Sialkot,4,70.0,70.0,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Lahore,5,55.0,64.15,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Faisalabad,6,50.0,50.0,50.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Sargodha,7,50.0,50.0,50.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Multan,8,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Bahawalpur,9,30.0,39.15,50.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Karachi,10,40.0,68.3,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Hyderabad,11,40.0,40.0,40.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Sukkur,12,40.0,40.0,40.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Larkana,13,30.0,33.25,35.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Peshawar,14,50.0,55.33,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Bannu,15,30.0,33.02,40.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Quetta,16,50.0,57.1,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,21,Potatoes,kitchen,1,Potatoes,1 Kg,Khuzdar,17,50.0,53.13,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Islamabad,1,220.0,232.28,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Rawalpindi,2,210.0,226.47,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Gujranwala,3,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Sialkot,4,220.0,220.0,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Lahore,5,200.0,209.36,230.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Faisalabad,6,180.0,193.1,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Sargodha,7,180.0,180.0,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Multan,8,180.0,193.1,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Bahawalpur,9,170.0,176.6,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Karachi,10,150.0,171.62,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Hyderabad,11,140.0,170.64,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Sukkur,12,150.0,154.92,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Larkana,13,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Peshawar,14,200.0,213.12,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Bannu,15,180.0,180.0,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Quetta,16,140.0,154.7,170.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,22,Onions,kitchen,1,Onions,1 Kg,Khuzdar,17,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Islamabad,1,230.0,263.49,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Rawalpindi,2,235.0,256.63,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Gujranwala,3,220.0,220.0,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Sialkot,4,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Lahore,5,220.0,239.34,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Faisalabad,6,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Sargodha,7,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Multan,8,220.0,238.77,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Bahawalpur,9,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Karachi,10,160.0,205.82,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Hyderabad,11,160.0,181.3,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Sukkur,12,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Larkana,13,200.0,206.46,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Peshawar,14,200.0,229.55,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Bannu,15,180.0,180.0,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Quetta,16,190.0,204.78,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,23,Tomatoes,kitchen,1,Tomatoes,1 Kg,Khuzdar,17,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Islamabad,1,140.0,142.06,145.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Rawalpindi,2,140.0,142.31,145.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Gujranwala,3,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Sialkot,4,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Lahore,5,145.0,145.23,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Faisalabad,6,140.0,141.65,145.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Sargodha,7,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Multan,8,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Bahawalpur,9,140.0,141.65,145.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Karachi,10,135.0,140.7,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Hyderabad,11,135.0,136.9,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Sukkur,12,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Larkana,13,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Peshawar,14,140.0,143.26,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Bannu,15,135.0,135.0,135.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Quetta,16,138.0,139.49,142.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,24,Sugar,kitchen,1,Sugar Refined,1 Kg,Khuzdar,17,140.0,141.65,145.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Islamabad,1,250.0,267.97,290.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Rawalpindi,2,250.0,255.93,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Gujranwala,3,220.0,220.0,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Sialkot,4,200.0,203.28,210.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Lahore,5,230.0,238.02,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Faisalabad,6,220.0,226.47,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Sargodha,7,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Multan,8,230.0,241.04,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Bahawalpur,9,160.0,169.8,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Karachi,10,240.0,262.53,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Hyderabad,11,230.0,240.78,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Sukkur,12,180.0,180.0,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Larkana,13,180.0,180.0,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Peshawar,14,250.0,258.74,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Bannu,15,230.0,230.0,230.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Quetta,16,250.0,264.83,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,25,Gur,kitchen,1,Gur (Average Quality),1 Kg,Khuzdar,17,240.0,246.62,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Islamabad,1,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Rawalpindi,2,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Gujranwala,3,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Sialkot,4,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Lahore,5,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Faisalabad,6,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Sargodha,7,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Multan,8,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Bahawalpur,9,60.0,63.16,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Karachi,10,60.0,67.01,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Hyderabad,11,60.0,63.16,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Sukkur,12,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Larkana,13,70.0,70.0,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Peshawar,14,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Bannu,15,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Quetta,16,70.0,70.0,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,26,Salt,kitchen,1,Salt Powdered (NATIONAL/SHAN) 800 gm Packet,Each,Khuzdar,17,70.0,70.0,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Islamabad,1,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Rawalpindi,2,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Gujranwala,3,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Sialkot,4,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Lahore,5,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Faisalabad,6,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Sargodha,7,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Multan,8,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Bahawalpur,9,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Karachi,10,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Hyderabad,11,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Sukkur,12,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Larkana,13,320.0,320.0,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Peshawar,14,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Bannu,15,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Quetta,16,380.0,380.0,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,27,Chilli powder,kitchen,1,Chilies Powder NATIONAL 200 gm Packet,Each,Khuzdar,17,320.0,320.0,320.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Islamabad,1,350.0,509.43,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Rawalpindi,2,340.0,465.96,560.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Gujranwala,3,500.0,516.14,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Sialkot,4,200.0,327.98,420.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Lahore,5,280.0,376.72,590.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Faisalabad,6,350.0,350.0,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Sargodha,7,500.0,500.0,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Multan,8,450.0,482.74,520.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Bahawalpur,9,300.0,337.37,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Karachi,10,320.0,415.11,560.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Hyderabad,11,280.0,289.83,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Sukkur,12,300.0,363.42,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Larkana,13,320.0,346.14,360.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Peshawar,14,250.0,471.22,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Bannu,15,450.0,450.0,450.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Quetta,16,380.0,394.88,410.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,28,Garlic,kitchen,1,Garlic (Lehsun),1 Kg,Khuzdar,17,600.0,600.0,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Islamabad,1,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Rawalpindi,2,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Gujranwala,3,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Sialkot,4,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Lahore,5,469.4,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Faisalabad,6,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Sargodha,7,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Multan,8,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Bahawalpur,9,447.0,447.0,447.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Karachi,10,469.41,469.42,469.42,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Hyderabad,11,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Sukkur,12,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Larkana,13,469.41,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Peshawar,14,469.4,469.41,469.41,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Bannu,15,447.0,447.0,447.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Quetta,16,469.0,469.0,469.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,29,Tea (packet),kitchen,1,Tea Lipton Yellow Label 190 gm Packet,Each,Khuzdar,17,447.0,447.05,447.1,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Islamabad,1,350.0,354.07,380.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Rawalpindi,2,300.0,339.27,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Gujranwala,3,450.0,450.0,450.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Sialkot,4,370.0,370.0,370.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Lahore,5,300.0,317.94,330.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Faisalabad,6,300.0,315.82,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Sargodha,7,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Multan,8,300.0,325.91,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Bahawalpur,9,300.0,309.68,330.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Karachi,10,300.0,373.12,450.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Hyderabad,11,320.0,329.7,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Sukkur,12,200.0,200.0,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Larkana,13,250.0,282.31,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Peshawar,14,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Bannu,15,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Quetta,16,360.0,374.88,390.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,30,Cooked beef (plate),prepared_food,1,Cooked Beef at Average Hotel,Per Plate,Khuzdar,17,330.0,343.2,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Islamabad,1,220.0,241.4,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Rawalpindi,2,200.0,220.86,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Gujranwala,3,160.0,160.0,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Sialkot,4,220.0,226.62,230.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Lahore,5,180.0,194.6,210.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Faisalabad,6,180.0,186.43,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Sargodha,7,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Multan,8,150.0,157.72,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Bahawalpur,9,170.0,173.27,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Karachi,10,170.0,189.71,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Hyderabad,11,170.0,177.45,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Sukkur,12,160.0,160.0,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Larkana,13,150.0,169.39,180.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Peshawar,14,150.0,151.08,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Bannu,15,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Quetta,16,180.0,194.76,210.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,31,Cooked daal (plate),prepared_food,1,Cooked Daal at Average Hotel,Per Plate,Khuzdar,17,180.0,193.1,200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Islamabad,1,70.0,73.19,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Rawalpindi,2,70.0,71.89,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Gujranwala,3,70.0,70.0,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Sialkot,4,60.0,60.0,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Lahore,5,70.0,72.72,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Faisalabad,6,60.0,63.16,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Sargodha,7,60.0,66.49,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Multan,8,80.0,80.0,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Bahawalpur,9,50.0,50.0,50.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Karachi,10,70.0,70.85,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Hyderabad,11,70.0,74.83,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Sukkur,12,70.0,70.0,70.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Larkana,13,70.0,76.52,80.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Peshawar,14,50.0,56.46,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Bannu,15,50.0,56.46,60.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Quetta,16,90.0,90.0,90.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,32,Tea (cup),prepared_food,1,Tea Prepared Ordinary,Per Cup,Khuzdar,17,50.0,50.0,50.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Islamabad,1,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Rawalpindi,2,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Gujranwala,3,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Sialkot,4,260.0,260.0,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Lahore,5,270.0,270.0,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Faisalabad,6,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Sargodha,7,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Multan,8,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Bahawalpur,9,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Karachi,10,250.0,254.5,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Hyderabad,11,250.0,253.29,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Sukkur,12,260.0,260.0,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Larkana,13,240.0,240.0,240.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Peshawar,14,270.0,270.0,270.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Bannu,15,260.0,260.0,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Quetta,16,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,33,Cigarettes,non_food,1,Cigarettes Capstan 20'S Packet,Each,Khuzdar,17,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Islamabad,1,750.0,773.97,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Rawalpindi,2,730.0,775.66,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Gujranwala,3,700.0,700.0,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Sialkot,4,700.0,700.0,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Lahore,5,850.0,850.0,850.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Faisalabad,6,650.0,659.85,680.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Sargodha,7,700.0,700.0,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Multan,8,800.0,800.0,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Bahawalpur,9,780.0,793.28,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Karachi,10,700.0,758.34,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Hyderabad,11,600.0,606.59,620.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Sukkur,12,500.0,500.0,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Larkana,13,600.0,646.33,750.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Peshawar,14,800.0,800.0,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Bannu,15,700.0,700.0,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Quetta,16,700.0,773.52,850.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,34,Long cloth,non_food,1,"Long Cloth 57"" Gul Ahmed/Al Karam",1 mtr,Khuzdar,17,400.0,400.0,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Islamabad,1,680.0,724.24,770.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Rawalpindi,2,650.0,691.63,750.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Gujranwala,3,600.0,600.0,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Sialkot,4,550.0,550.0,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Lahore,5,430.0,464.01,490.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Faisalabad,6,850.0,866.35,900.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Sargodha,7,800.0,800.0,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Multan,8,480.0,520.7,535.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Bahawalpur,9,580.0,586.59,600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Karachi,10,600.0,719.31,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Hyderabad,11,580.0,603.23,620.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Sukkur,12,350.0,350.0,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Larkana,13,450.0,482.74,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Peshawar,14,800.0,800.0,800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Bannu,15,450.0,476.22,500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Quetta,16,250.0,306.37,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,35,Shirting,non_food,1,Shirting (Average Quality),1 mtr,Khuzdar,17,350.0,372.77,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Islamabad,1,630.0,662.12,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Rawalpindi,2,580.0,634.78,670.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Gujranwala,3,748.0,748.0,748.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Sialkot,4,700.0,700.0,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Lahore,5,805.0,830.51,850.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Faisalabad,6,650.0,666.26,700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Sargodha,7,714.0,714.0,714.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Multan,8,793.93,793.93,793.93,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Bahawalpur,9,816.66,818.89,820.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Karachi,10,700.0,725.33,750.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Hyderabad,11,580.0,599.94,620.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Sukkur,12,550.0,550.0,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Larkana,13,600.0,632.89,650.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Peshawar,14,850.0,888.64,900.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Bannu,15,650.0,650.0,650.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Quetta,16,700.0,773.52,850.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,36,Lawn,non_food,1,Lawn Printed Gul Ahmed/Al Karam,1 mtr,Khuzdar,17,400.0,400.0,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Islamabad,1,400.0,424.51,490.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Rawalpindi,2,400.0,422.27,460.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Gujranwala,3,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Sialkot,4,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Lahore,5,400.0,424.98,450.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Faisalabad,6,350.0,350.0,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Sargodha,7,400.0,400.0,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Multan,8,300.0,327.54,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Bahawalpur,9,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Karachi,10,350.0,389.48,450.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Hyderabad,11,300.0,317.87,340.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Sukkur,12,200.0,206.46,220.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Larkana,13,350.0,382.59,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Peshawar,14,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Bannu,15,250.0,250.0,250.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Quetta,16,220.0,239.44,260.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,37,Georgette,non_food,1,Georgette (Average Quality),1 mtr,Khuzdar,17,250.0,282.31,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Islamabad,1,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Rawalpindi,2,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Gujranwala,3,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Sialkot,4,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Lahore,5,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Faisalabad,6,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Sargodha,7,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Multan,8,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Bahawalpur,9,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Karachi,10,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Hyderabad,11,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Sukkur,12,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Larkana,13,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Peshawar,14,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Bannu,15,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Quetta,16,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,38,Gents sandal,non_food,1,Gents Sandal Bata,Pair,Khuzdar,17,2499.0,2499.0,2499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Islamabad,1,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Rawalpindi,2,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Gujranwala,3,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Sialkot,4,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Lahore,5,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Faisalabad,6,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Sargodha,7,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Multan,8,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Bahawalpur,9,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Karachi,10,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Hyderabad,11,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Sukkur,12,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Larkana,13,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Peshawar,14,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Bannu,15,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Quetta,16,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,39,Gents chappal,non_food,1,Gents Sponge Chappal Bata,Pair,Khuzdar,17,699.0,699.0,699.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Islamabad,1,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Rawalpindi,2,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Gujranwala,3,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Sialkot,4,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Lahore,5,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Faisalabad,6,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Sargodha,7,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Multan,8,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Bahawalpur,9,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Karachi,10,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Hyderabad,11,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Sukkur,12,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Larkana,13,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Peshawar,14,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Bannu,15,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Quetta,16,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,40,Ladies sandal,non_food,1,Ladies Sandal Bata,Pair,Khuzdar,17,1499.0,1499.0,1499.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Islamabad,1,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Rawalpindi,2,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Gujranwala,3,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Sialkot,4,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Lahore,5,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Faisalabad,6,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Sargodha,7,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Multan,8,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Bahawalpur,9,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Karachi,10,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Hyderabad,11,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Sukkur,12,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Larkana,13,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Peshawar,14,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Bannu,15,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Quetta,16,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,41,Electricity (Q1),non_food,1,Electricity Charges for Q1*,Per Unit,Khuzdar,17,7.36,7.36,7.36,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Islamabad,1,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Rawalpindi,2,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Gujranwala,3,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Sialkot,4,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Lahore,5,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Faisalabad,6,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Sargodha,7,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Multan,8,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Bahawalpur,9,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Karachi,10,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Hyderabad,11,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Sukkur,12,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Larkana,13,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Peshawar,14,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Bannu,15,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Quetta,16,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,42,Gas (Q1),non_food,1,Gas Charges for Q1,MMBTU,Khuzdar,17,2566.5,2566.5,2566.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Islamabad,1,2000.0,2289.99,2500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Rawalpindi,2,1600.0,1850.24,2050.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Gujranwala,3,1900.0,1932.77,2000.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Sialkot,4,1600.0,1600.0,1600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Lahore,5,1900.0,1999.45,2050.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Faisalabad,6,1800.0,1800.0,1800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Sargodha,7,1500.0,1516.48,1550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Multan,8,1700.0,1708.23,1750.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Bahawalpur,9,1600.0,1632.66,1700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Karachi,10,1300.0,1395.13,1500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Hyderabad,11,1450.0,1499.86,1550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Sukkur,12,1100.0,1165.7,1200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Larkana,13,1350.0,1383.13,1400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Peshawar,14,1050.0,1329.77,1700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Bannu,15,1100.0,1132.37,1200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Quetta,16,1450.0,1524.25,1600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,43,Firewood (40kg),non_food,1,Firewood Whole,40 Kg,Khuzdar,17,1200.0,1232.45,1300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Islamabad,1,270.0,276.63,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Rawalpindi,2,240.0,260.4,280.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Gujranwala,3,550.0,550.0,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Sialkot,4,575.0,575.0,575.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Lahore,5,550.0,550.0,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Faisalabad,6,400.0,400.0,400.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Sargodha,7,550.0,550.0,550.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Multan,8,575.0,575.0,575.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Bahawalpur,9,260.0,272.7,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Karachi,10,350.0,350.0,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Hyderabad,11,450.0,450.0,450.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Sukkur,12,350.0,350.0,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Larkana,13,370.0,370.0,370.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Peshawar,14,350.0,350.0,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Bannu,15,300.0,300.0,300.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Quetta,16,350.0,350.0,350.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,44,Energy saver,non_food,1,Energy Saver Philips 14 Watt,Each,Khuzdar,17,580.0,580.0,580.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Islamabad,1,150.0,150.81,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Rawalpindi,2,150.0,153.26,160.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Gujranwala,3,140.0,143.26,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Sialkot,4,140.0,143.26,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Lahore,5,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Faisalabad,6,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Sargodha,7,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Multan,8,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Bahawalpur,9,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Karachi,10,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Hyderabad,11,140.0,140.0,140.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Sukkur,12,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Larkana,13,138.0,140.98,142.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Peshawar,14,145.0,148.31,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Bannu,15,130.0,130.0,130.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Quetta,16,150.0,150.0,150.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,45,Washing soap,non_food,1,Sufi Washing Soap 250 gm Cake,Each,Khuzdar,17,137.5,137.5,137.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Islamabad,1,6.0,6.0,6.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Rawalpindi,2,6.0,6.06,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Gujranwala,3,7.0,7.0,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Sialkot,4,6.0,6.0,6.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Lahore,5,6.0,6.32,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Faisalabad,6,7.0,7.0,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Sargodha,7,6.0,6.0,6.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Multan,8,7.0,7.0,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Bahawalpur,9,7.0,7.0,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Karachi,10,7.0,7.0,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Hyderabad,11,6.0,6.65,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Sukkur,12,6.0,6.0,6.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Larkana,13,7.0,7.0,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Peshawar,14,7.0,7.0,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Bannu,15,5.0,5.0,5.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Quetta,16,5.0,5.97,7.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,46,Matchbox,non_food,1,Match Box,Each,Khuzdar,17,5.0,5.0,5.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Islamabad,1,336.59,336.59,336.59,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Rawalpindi,2,335.93,336.41,336.55,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Gujranwala,3,337.35,337.35,337.35,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Sialkot,4,338.2,338.2,338.2,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Lahore,5,335.0,335.0,335.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Faisalabad,6,336.43,336.43,336.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Sargodha,7,338.5,338.5,338.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Multan,8,336.43,336.75,337.37,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Bahawalpur,9,338.3,338.49,338.67,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Karachi,10,336.43,336.43,336.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Hyderabad,11,338.5,338.95,339.65,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Sukkur,12,336.62,336.62,336.62,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Larkana,13,337.83,337.83,337.83,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Peshawar,14,336.43,336.43,336.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Bannu,15,339.9,339.9,339.9,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Quetta,16,336.43,336.43,336.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,47,Petrol,non_food,1,Petrol Super,Per Litre,Khuzdar,17,336.34,336.4,336.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Islamabad,1,365.55,365.55,365.55,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Rawalpindi,2,364.64,365.45,365.73,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Gujranwala,3,366.35,366.35,366.35,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Sialkot,4,367.5,367.5,367.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Lahore,5,364.0,364.0,364.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Faisalabad,6,365.43,365.43,365.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Sargodha,7,367.5,367.5,367.5,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Multan,8,365.4,365.75,366.37,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Bahawalpur,9,367.3,367.6,367.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Karachi,10,365.43,365.43,365.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Hyderabad,11,367.5,367.93,368.6,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Sukkur,12,365.62,365.62,365.62,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Larkana,13,366.83,366.83,366.83,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Peshawar,14,365.43,365.43,365.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Bannu,15,369.2,369.2,369.2,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Quetta,16,365.43,365.43,365.43,mcid,Annex_12.11.2026.pdf
+2026-11-12,48,Diesel,non_food,1,Hi-Speed Diesel,Per Litre,Khuzdar,17,366.73,366.73,366.73,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Islamabad,1,6800.0,6831.21,6850.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Rawalpindi,2,6550.0,6661.23,6800.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Gujranwala,3,7002.0,7002.0,7002.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Sialkot,4,7235.4,7235.4,7235.4,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Lahore,5,6418.5,6495.78,6535.2,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Faisalabad,6,6750.0,6750.0,6750.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Sargodha,7,6200.0,6200.0,6200.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Multan,8,6535.0,6535.0,6535.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Bahawalpur,9,6000.0,6328.87,6500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Karachi,10,6068.0,6251.53,6418.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Hyderabad,11,6068.4,6107.05,6185.1,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Sukkur,12,6190.0,6190.0,6190.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Larkana,13,6550.0,6583.29,6600.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Peshawar,14,6651.9,6871.35,7002.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Bannu,15,6500.0,6500.0,6500.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Quetta,16,6500.0,6566.25,6700.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,49,LPG cylinder,non_food,1,LPG 11.67 kg Cylinder,Each,Khuzdar,17,5835.0,5835.0,5835.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Islamabad,1,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Rawalpindi,2,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Gujranwala,3,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Sialkot,4,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Lahore,5,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Faisalabad,6,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Sargodha,7,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Multan,8,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Bahawalpur,9,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Karachi,10,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Hyderabad,11,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Sukkur,12,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Larkana,13,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Peshawar,14,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Bannu,15,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Quetta,16,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,50,Phone call,non_food,1,Telephone Call Charges,Per Minute,Khuzdar,17,1.79,1.79,1.79,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Islamabad,1,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Rawalpindi,2,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Gujranwala,3,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Sialkot,4,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Lahore,5,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Faisalabad,6,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Sargodha,7,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Multan,8,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Bahawalpur,9,116.17,116.17,116.17,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Karachi,10,136.0,136.0,136.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Hyderabad,11,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Sukkur,12,136.0,136.0,136.0,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Larkana,13,118.6,118.6,118.6,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Peshawar,14,129.08,129.08,129.08,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Bannu,15,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Quetta,16,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
+2026-11-12,51,Toilet soap,non_food,1,Toilet Soap LIFEBUOY 115 gm,Each,Khuzdar,17,136.02,136.02,136.02,mcid,Annex_12.11.2026.pdf
