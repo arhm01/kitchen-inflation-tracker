@@ -203,8 +203,17 @@ def run(full_scan: bool = False, offline: bool = False) -> int:
     validate.write_report(tables, config.REPORTS / "validation.md")
 
     con = load.build()
-    from . import dashboard
+    from . import dashboard, insights
+    # The case study's claims are checked against the loaded views (S1);
+    # a failed claim joins the issues before the report is final.
+    story, claim_issues = insights.build(con)
+    if claim_issues:
+        tables["issues"] = pd.concat([tables["issues"], pd.DataFrame(claim_issues)], ignore_index=True)
+        clean.write_tables({"issues": tables["issues"]})
+        validate.write_report(tables, config.REPORTS / "validation.md")
+        con.execute(f"CREATE OR REPLACE TABLE issues AS SELECT * FROM read_csv('{(clean.CLEAN / 'issues.csv').as_posix()}', header=true, all_varchar=true)")
     dashboard.build(con)
+    dashboard.build_case_study(con, story)
 
     n_err = int((tables["issues"]["severity"] == "error").sum())
     log.info("done: %d weeks, %d errors, %d warnings", tables["prices"]["week_end"].nunique(),

@@ -17,3 +17,8 @@ data/interim/*.log
 
 # Local editor/agent config
 .claude/
+
+# Impeccable runtime files (decision sketches, question pages, hook cache)
+.impeccable/mocks/
+.impeccable/questions/
+.impeccable/hook.cache.json

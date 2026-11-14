@@ -103,3 +103,36 @@ def build(con: duckdb.DuckDBPyConnection) -> None:
             shutil.copy(src, site / src.name)
     log.info("dashboard written to %s (%d KB)", site / "index.html",
              (site / "index.html").stat().st_size // 1024)
+
+
+def build_case_study(con: duckdb.DuckDBPyConnection, story: dict | None = None) -> None:
+    """Render site/case-study.html: one self-contained file (inline CSS, JS
+    and data, no external requests) meant to be copied into a portfolio site.
+
+    Prose placeholders {{key}} are filled from insights.facts() at build time,
+    so the text reads correctly without JavaScript; an unknown placeholder
+    fails the build rather than shipping a literal "{{...}}".
+    """
+    import html
+    import re
+
+    from . import insights
+
+    if story is None:
+        story, _ = insights.build(con)
+    facts = insights.facts(story)
+    explorer = insights.explorer(con)
+    page = resources.files("kitchen_inflation").joinpath("templates/case-study.html").read_text()
+
+    def fill(m: re.Match) -> str:
+        key = m.group(1)
+        if key not in facts:
+            raise KeyError(f"case-study.html uses {{{{{key}}}}} but insights.facts() has no such key")
+        return html.escape(str(facts[key]))
+
+    page = re.sub(r"\{\{(\w+)\}\}", fill, page)
+    blob = lambda d: json.dumps(d, separators=(",", ":"), default=str).replace("</", "<\\/")  # noqa: E731
+    page = page.replace("/*__STORY__*/null", blob(story)).replace("/*__EXPLORER__*/null", blob(explorer))
+    out = config.SITE / "case-study.html"
+    out.write_text(page)
+    log.info("case study written to %s (%d KB)", out, out.stat().st_size // 1024)

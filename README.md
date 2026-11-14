@@ -15,6 +15,14 @@ Archive: **163 weeks** of city prices (Jul 2023 – 5 Nov 2026, plus one survivi
 | **3. Ramadan effect by item, across years?** | **Bananas** are the one large, consistent effect: +41, +46 and +49 pp above their typical 4-week change in Ramadan 2024, 2025 and 2026. Beef and mutton rise a small (1–3 pp) but consistent amount. Potatoes went +19 / −11 / −24 pp, so for seasonal produce Ramadan can't yet be separated from season (every Ramadan so far fell in spring). 11 of 29 kitchen items never moved beyond their normal swing. |
 | **Is the parse right?** | For the 60 weeks where PBS also published Excel, the PDF parse matches it on **156,060 of 156,060 cells**. Item contributions reproduce PBS's published YoY within 0.01 pp in all 136 decomposed week-baskets. |
 
+## Portfolio case study
+
+`site/case-study.html` is a long-form write-up with an interactive price explorer, built for a portfolio site. It is **one self-contained file** (inline CSS, JS and data, no external requests, about 330 KB): copy it into any website. It is regenerated on every pipeline run.
+- The prose is hand-written, but every figure in it comes from `src/kitchen_inflation/insights.py`.
+- Each qualitative claim the prose makes is re-checked weekly (check `S1` in the validation report), so the write-up can't silently go stale.
+
+Live copy: https://arhm01.github.io/kitchen-inflation-tracker/case-study.html
+
 ## Pipeline
 
 ```

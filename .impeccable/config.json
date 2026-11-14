@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/dashboard-first.html"
+        ],
+        "createdAt": "2026-11-11T22:28:20.314Z",
+        "reason": "Claude: throwaway low-fidelity decision sketch for the page-structure vote, gitignored and not shipped; the shipped site/case-study.html passes detect with no findings"
+      }
+    ]
+  }
+}
