@@ -1,14 +1,14 @@
 # Validation report
 
-_Generated 2026-11-23 17:18 UTC by the pipeline. Checks are defined in `src/kitchen_inflation/validate.py`; cleaning rules in `clean.py`; both are explained in `docs/methods.md`._
+_Generated 2026-11-28 15:12 UTC by the pipeline. Checks are defined in `src/kitchen_inflation/validate.py`; cleaning rules in `clean.py`; both are explained in `docs/methods.md`._
 
 ## Coverage
 
-- Weeks with city prices: **165** (2023-02-16 to 2026-11-19)
-- Weeks with quintile data: **164**
-- Price rows: **143,055**; NULL (reported as 0.00): 585
-- Parse method: mcid: 143,055
-- Source files discovered: 489, selected: 391
+- Weeks with city prices: **166** (2023-02-16 to 2026-11-26)
+- Weeks with quintile data: **165**
+- Price rows: **143,922**; NULL (reported as 0.00): 588
+- Parse method: mcid: 143,922
+- Source files discovered: 493, selected: 394
 
 ## Issues by check
 
@@ -20,7 +20,7 @@ _Generated 2026-11-23 17:18 UTC by the pipeline. Checks are defined in `src/kitc
 | V6_big_jump | 0 | 0 | 2 |
 | V6_possible_unit_change | 0 | 2 | 0 |
 | V7_missing_weeks | 0 | 8 | 0 |
-| V9_pdf_vs_xlsx | 0 | 0 | 62 |
+| V9_pdf_vs_xlsx | 0 | 0 | 63 |
 | filename_date_mismatch | 0 | 0 | 1 |
 | summary_link | 0 | 0 | 1 |
 | zero_as_missing | 0 | 0 | 1 |
@@ -29,7 +29,7 @@ _Generated 2026-11-23 17:18 UTC by the pipeline. Checks are defined in `src/kitc
 
 ### V10_decomposition (1)
 
-- **info** `all weeks`: 100% of week-baskets close within 0.15pp; median |gap| 0.003pp
+- **info** `all weeks`: 100% of week-baskets close within 0.15pp; median |gap| 0.002pp
 
 ### V11_index_revision (1)
 
@@ -64,7 +64,7 @@ _Generated 2026-11-23 17:18 UTC by the pipeline. Checks are defined in `src/kitc
 - **warn** `2026-05-21 -> 2026-06-04`: 1 week(s) with no annex found
 - **warn** `2026-06-18 -> 2026-07-02`: 1 week(s) with no annex found
 
-### V9_pdf_vs_xlsx (62)
+### V9_pdf_vs_xlsx (63)
 
 - **info** `2025-04-30`: 0 of 2601 cells differ, 0 unmatched keys
 - **info** `2025-05-15`: 0 of 2601 cells differ, 0 unmatched keys
@@ -106,7 +106,7 @@ _Generated 2026-11-23 17:18 UTC by the pipeline. Checks are defined in `src/kitc
 - **info** `2026-05-21`: 0 of 2601 cells differ, 0 unmatched keys
 - **info** `2026-06-04`: 0 of 2601 cells differ, 0 unmatched keys
 - **info** `2026-06-11`: 0 of 2601 cells differ, 0 unmatched keys
-- ... 22 more in `data/clean/issues.csv`
+- ... 23 more in `data/clean/issues.csv`
 
 ### filename_date_mismatch (1)
 
@@ -114,8 +114,8 @@ _Generated 2026-11-23 17:18 UTC by the pipeline. Checks are defined in `src/kitc
 
 ### summary_link (1)
 
-- **info** `summary_items`: 8305 rows linked by price, 59 by name (C4)
+- **info** `summary_items`: 8356 rows linked by price, 59 by name (C4)
 
 ### zero_as_missing (1)
 
-- **info** `prices`: 585 city-item-weeks reported as 0.00 -> NULL (C1)
+- **info** `prices`: 588 city-item-weeks reported as 0.00 -> NULL (C1)

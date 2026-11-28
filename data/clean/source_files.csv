@@ -488,3 +488,7 @@ Annex_19.11.2026.pdf,annex,pdf,2026-11-20,2026-11-19,dd.mm.yyyy,2026-11-19,parse
 Annex_19.11.2026.xlsx,annex,xlsx,2026-11-20,2026-11-19,dd.mm.yyyy,2026-11-19,parsed,True,post,https://www.pbs.gov.pk/wp-content/uploads/2020/07/Annex_19.11.2026.xlsx
 3.-SPI-Report-19.11.2026.xlsx,report_xlsx,xlsx,2026-11-20,2026-11-19,dd.mm.yyyy,,skipped,False,post,https://www.pbs.gov.pk/wp-content/uploads/2020/07/3.-SPI-Report-19.11.2026.xlsx
 Executive-Summary-SPI-Report_19.11.2026.pdf,summary,pdf,2026-11-20,2026-11-19,dd.mm.yyyy,2026-11-19,parsed,True,post,https://www.pbs.gov.pk/wp-content/uploads/2020/07/Executive-Summary-SPI-Report_19.11.2026.pdf
+Annex_26.11.2026.xlsx,annex,xlsx,2026-11-27,2026-11-26,dd.mm.yyyy,2026-11-26,parsed,True,post,https://www.pbs.gov.pk/wp-content/uploads/2020/07/Annex_26.11.2026.xlsx
+Annex_26.11.2026.pdf,annex,pdf,2026-11-27,2026-11-26,dd.mm.yyyy,2026-11-26,parsed,True,post,https://www.pbs.gov.pk/wp-content/uploads/2020/07/Annex_26.11.2026.pdf
+3.-SPI-Report-26.11.2026.xlsx,report_xlsx,xlsx,2026-11-27,2026-11-26,dd.mm.yyyy,,skipped,False,post,https://www.pbs.gov.pk/wp-content/uploads/2020/07/3.-SPI-Report-26.11.2026.xlsx
+Executive-Summary-SPI-Report_26.11.2026.pdf,summary,pdf,2026-11-27,2026-11-26,dd.mm.yyyy,2026-11-26,parsed,True,post,https://www.pbs.gov.pk/wp-content/uploads/2020/07/Executive-Summary-SPI-Report_26.11.2026.pdf
